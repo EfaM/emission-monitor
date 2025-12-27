@@ -1,8 +1,9 @@
-<script setup></script>
 <template>
-  <div>
-    <h1>Home</h1>
-  </div>
+  <h1>SGO</h1>
+  <strong
+    >Shared Earth. Shared Emissions. <br />
+    Shared Responsibility.
+  </strong>
 </template>
 
 <style>

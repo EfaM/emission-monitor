@@ -12,6 +12,10 @@ const router = createRouter({
       component: HomeView,
     },
     {
+      path: '/home',
+      redirect: '/',
+    },
+    {
       path: '/co2-monitor',
       name: 'co2Monitor',
       component: Co2MonitorView,
