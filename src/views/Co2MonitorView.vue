@@ -1,7 +1,6 @@
-<script setup></script>
 <template>
   <div>
-    <h1>Home</h1>
+    <h1>Co<sub>2</sub> Monitor</h1>
   </div>
 </template>
 
