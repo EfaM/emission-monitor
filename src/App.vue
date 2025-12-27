@@ -1,16 +1,19 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import HeaderBar from '@/components/HeaderBar.vue' // Beinhaltet die Top-Navigation
+import SideNavigation from '@/components/SideNavigation.vue'
+import MobileSideNavigation from '@/components/MobileSideNavigation.vue'
+import FooterBar from '@/components/FooterBar.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="SGO Logo" src="@/assets/sgo Logo.png" />
-    <nav>
-      <RouterLink to="/">SGO Startseite</RouterLink>
-      <RouterLink to="/co2-monitor">Co<sub>2</sub> Monitor</RouterLink>
-      <RouterLink to="/impressum">Impressum</RouterLink>
-    </nav>
-  </header>
+  <HeaderBar />
 
-  <RouterView />
+  <main>
+    <SideNavigation />
+    <MobileSideNavigation />
+
+    <RouterView />
+  </main>
+
+  <FooterBar />
 </template>
