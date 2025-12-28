@@ -21,13 +21,17 @@ import { RouterLink } from 'vue-router'
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <RouterLink to="/datenlage" class="nav-link"> Datenlage </RouterLink>
+          <RouterLink to="/datenlage" class="nav-link" ctive-class="active"> Datenlage </RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="/co2-monitor" class="nav-link"> Co<sub>2</sub> Monitor </RouterLink>
+          <RouterLink to="/co2-monitor" class="nav-link" active-class="active">
+            Co<sub>2</sub> Monitor
+          </RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="/handlungsraeume" class="nav-link"> Handlungsräume </RouterLink>
+          <RouterLink to="/handlungsraeume" class="nav-link" active-class="active">
+            Handlungsräume
+          </RouterLink>
         </li>
       </ul>
       <form class="d-flex" role="search">
