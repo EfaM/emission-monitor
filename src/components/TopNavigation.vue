@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-primary">
     <RouterLink to="/" class="navbar-brand">
       <img src="@/assets/navlogo.png" alt="SGO Logo" height="40" />
     </RouterLink>

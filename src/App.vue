@@ -1,8 +1,12 @@
 <script setup>
 import HeaderBar from '@/components/HeaderBar.vue' // Beinhaltet die Top-Navigation
+import HeaderBanner from '@/components/HeaderBanner.vue' // Nur auf der Startseite zu sehen
 import SideNavigation from '@/components/SideNavigation.vue'
 import MobileSideNavigation from '@/components/MobileSideNavigation.vue'
 import FooterBar from '@/components/FooterBar.vue'
+
+import { useRoute } from 'vue-router'
+const route = useRoute()
 </script>
 
 <template>
@@ -13,7 +17,12 @@ import FooterBar from '@/components/FooterBar.vue'
           <HeaderBar />
         </div>
       </div>
-
+      <!--Nur auf der Startseite-->
+      <div class="row" id="bannerWrapper" v-if="route.name === 'home'">
+        <div class="col-8 mx-auto">
+          <HeaderBanner />
+        </div>
+      </div>
       <div class="row" id="mainWrapper">
         <div class="col-9">
           <main>
