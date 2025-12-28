@@ -4,6 +4,7 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <footer>
+    <RouterLink to="/stellenangebote">Stellenangebote</RouterLink>
     <RouterLink to="/impressum">Impressum</RouterLink>
   </footer>
 </template>
