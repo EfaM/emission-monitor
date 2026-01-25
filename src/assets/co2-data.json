@@ -1,0 +1,46 @@
+{
+  "tableHeader": [
+    {
+      "id": 1,
+      "title": "ID"
+    },
+    {
+      "id": 2,
+      "title": "Land"
+    },
+    {
+      "id": 3,
+      "title": "Unternehmen"
+    },
+    {
+      "id": 4,
+      "title": "Emission"
+    }
+  ],
+  "tableContent": [
+    {
+      "id": 1,
+      "company": "ReifSCP",
+      "country": "Deutschland",
+      "emission": 13446450693409
+    },
+    {
+      "id": 3,
+      "company": "RohÖl Industries",
+      "country": "Frankreich",
+      "emission": 13446450693409
+    },
+    {
+      "id": 4,
+      "company": "ReifSCP",
+      "country": "Deutschland",
+      "emission": 13446450693409
+    },
+    {
+      "id": 2,
+      "company": "MetalComp",
+      "country": "USA",
+      "emission": 1344693409
+    }
+  ]
+}
