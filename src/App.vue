@@ -1,12 +1,29 @@
 <script setup>
-import HeaderBar from '@/components/HeaderBar.vue' // Beinhaltet die Top-Navigation
-import HeaderBanner from '@/components/HeaderBanner.vue' // Nur auf der Startseite zu sehen
-import HomeSideNavigation from '@/components/HomeSideNavigation.vue'
+import { useRoute } from 'vue-router'
+import navConfigData from '@/config/navigation.json'
+import { computed } from 'vue'
+import HeaderBar from '@/components/HeaderBar.vue'
+import SideNavigation from '@/components/SideNavigation.vue'
 import MobileSideNavigation from '@/components/MobileSideNavigation.vue'
 import FooterBar from '@/components/FooterBar.vue'
 
-import { useRoute } from 'vue-router'
 const route = useRoute()
+
+const currentPage = computed(() => {
+  if (route.name !== null && route.name != undefined && route.name !== '') {
+    return String(route.name)
+  } else {
+    return ''
+  }
+})
+
+const currentSideNavigation = computed(() => {
+  if (currentPage.value in navConfigData.sideNavItems) {
+    return navConfigData.sideNavItems[currentPage.value]
+  } else {
+    return []
+  }
+})
 </script>
 
 <template>
@@ -18,27 +35,21 @@ const route = useRoute()
           <HeaderBar />
         </div>
       </div>
-      <!--Headerbild auf der Startseite-->
-      <div v-if="route.name === 'home' || route.name === '/'" class="row" id="bannerWrapper">
-        <div class="col-8 mx-auto">
-          <HeaderBanner />
-        </div>
-      </div>
       <!--Main-->
       <div class="row" id="mainWrapper">
+        <!--Seitennavigation auf Startseite-->
+        <aside v-if="currentSideNavigation.length > 0" class="col-3">
+          <SideNavigation :sideNavigation="currentSideNavigation" :currentPage="currentPage" />
+          <MobileSideNavigation />
+        </aside>
         <div class="col-9">
           <main>
             <RouterView />
           </main>
         </div>
-        <!--Seitennavigation auf Startseite-->
-        <aside v-if="route.name === 'home' || route.name === '/'" class="col-3">
-          <HomeSideNavigation />
-          <MobileSideNavigation />
-        </aside>
       </div>
       <!--Footer-->
-      <div class="row" id="footerWrapper">
+      <div class="row my-2" id="footerWrapper">
         <div class="col-12">
           <FooterBar />
         </div>

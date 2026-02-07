@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ImpressumView from '../views/ImpressumView.vue'
-import Co2MonitorView from '../views/Co2MonitorView.vue'
 import DatenlageView from '../views/DatenlageView.vue'
 import StellenangeboteView from '../views/StellenangeboteView.vue'
 import HandlungsraeumeView from '../views/HandlungsraeumeView.vue'
+import EmissionsMonitorView from '../views/EmissionsMonitorView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,9 +19,9 @@ const router = createRouter({
       redirect: '/',
     },
     {
-      path: '/co2-monitor',
-      name: 'co2Monitor',
-      component: Co2MonitorView,
+      path: '/emissions-monitor',
+      name: 'emissions-Monitor',
+      component: EmissionsMonitorView,
     },
     {
       path: '/datenlage',

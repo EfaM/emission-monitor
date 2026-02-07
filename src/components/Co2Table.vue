@@ -88,7 +88,7 @@ const sortingEventHandler = (id) => {
 </script>
 
 <template>
-  <h1>Co<sub>2</sub> Monitor</h1>
+  <h1>Emissions Monitor</h1>
   <SearchBar @search="onSearch" />
   <table class="table table-striped">
     <thead class="table-light">

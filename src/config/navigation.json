@@ -1,0 +1,82 @@
+{
+  "topNavItems": [
+    {
+      "navPosition": 1,
+      "linkTitle": "Datenlage",
+      "urlpath": "datenlage"
+    },
+    {
+      "navPosition": 2,
+      "linkTitle": "Emissions Monitor",
+      "urlpath": "emissions-monitor"
+    },
+    {
+      "navPosition": 3,
+      "linkTitle": "Handlungsräume",
+      "urlpath": "handlungsraeume"
+    }
+  ],
+  "FooterItems": [
+    {
+      "navPosition": 1,
+      "linkTitle": "Stellenangebote",
+      "urlpath": "stellenangebote"
+    },
+    {
+      "navPosition": 2,
+      "linkTitle": "Datenschutz",
+      "urlpath": "datenschutz"
+    },
+    {
+      "navPosition": 3,
+      "linkTitle": "Impressum",
+      "urlpath": "impressum"
+    }
+  ],
+  "sideNavItems": {
+    "home": [
+      {
+        "navPosition": 1,
+        "hash": "#sgo",
+        "title": "Shared Ground Organization"
+      },
+      {
+        "navPosition": 2,
+        "hash": "#die-vision",
+        "title": "Die Vision"
+      },
+      {
+        "navPosition": 3,
+        "hash": "#emission-monitor",
+        "title": "Emissions Monitor"
+      },
+      {
+        "navPosition": 4,
+        "hash": "#partnerschaften",
+        "title": "Partnerschaften"
+      }
+    ],
+    "handlungsraeume": [
+      {
+        "navPosition": 1,
+        "hash": "#ue1",
+        "title": "Ü1"
+      },
+      {
+        "navPosition": 2,
+        "hash": "#die-vision",
+        "title": "Die Vision"
+      },
+      {
+        "navPosition": 3,
+        "hash": "#emission-monitor",
+        "title": "Emissions Monitor"
+      },
+      {
+        "navPosition": 4,
+        "hash": "#partnerschaften",
+        "title": "Partnerschaften"
+      }
+    ]
+  }
+}
