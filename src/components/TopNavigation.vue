@@ -1,8 +1,12 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faHouse as HomeIcon } from '@fortawesome/free-solid-svg-icons'
+
 import navConfigData from '../config/navigation.json'
+
+const { t } = useI18n()
 const nav = navConfigData.topNavItems
 </script>
 
@@ -33,7 +37,7 @@ const nav = navConfigData.topNavItems
           </li>
           <li v-for="navItem in nav" :key="navItem.navPosition" class="nav-item">
             <RouterLink :to="'/' + navItem.urlpath" class="nav-link" active-class="active">
-              {{ navItem.linkTitle }}
+              {{ t(navItem.linkTitle) }}
             </RouterLink>
           </li>
         </ul>

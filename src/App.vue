@@ -1,7 +1,8 @@
 <script setup>
 import { useRoute } from 'vue-router'
-import navConfigData from '@/config/navigation.json'
 import { computed } from 'vue'
+
+import navConfigData from '@/config/navigation.json'
 import HeaderBar from '@/components/HeaderBar.vue'
 import SideNavigation from '@/components/SideNavigation.vue'
 import MobileSideNavigation from '@/components/MobileSideNavigation.vue'

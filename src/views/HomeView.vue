@@ -1,6 +1,6 @@
 <template>
   <section id="sgo">
-    <h1>SGO</h1>
+    <h1>{{ $t('title') }}</h1>
     <h2>Shared Ground Organization</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequuntur ad illo dolor

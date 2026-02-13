@@ -2,17 +2,17 @@
   "topNavItems": [
     {
       "navPosition": 1,
-      "linkTitle": "Datenlage",
+      "linkTitle": "topNavigation.datenlage",
       "urlpath": "datenlage"
     },
     {
       "navPosition": 2,
-      "linkTitle": "Emissions Monitor",
+      "linkTitle": "topNavigation.emissions-monitor",
       "urlpath": "emissions-monitor"
     },
     {
       "navPosition": 3,
-      "linkTitle": "Handlungsräume",
+      "linkTitle": "topNavigation.handlungsraeume",
       "urlpath": "handlungsraeume"
     }
   ],
