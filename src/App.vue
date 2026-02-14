@@ -3,9 +3,10 @@ import { useRoute } from 'vue-router'
 import { computed } from 'vue'
 
 import navConfigData from '@/config/navigation.json'
-import HeaderBar from '@/components/HeaderBar.vue'
+
+import TopNavigation from '@/components/TopNavigation.vue'
+import HeaderComponent from '@/components/HeaderComponent.vue'
 import SideNavigation from '@/components/SideNavigation.vue'
-import MobileSideNavigation from '@/components/MobileSideNavigation.vue'
 import FooterBar from '@/components/FooterBar.vue'
 
 const route = useRoute()
@@ -28,33 +29,23 @@ const currentSideNavigation = computed(() => {
 </script>
 
 <template>
-  <!--Header-->
-  <div class="container-fluid">
-    <div class="container-xxl" id="flexContainerWrapper">
-      <div class="row" id="headerWrapper">
-        <div class="col-12">
-          <HeaderBar />
-        </div>
-      </div>
-      <!--Main-->
-      <div class="row" id="mainWrapper">
-        <!--Seitennavigation auf Startseite-->
-        <aside v-if="currentSideNavigation.length > 0" class="col-3">
-          <SideNavigation :sideNavigation="currentSideNavigation" :currentPage="currentPage" />
-          <MobileSideNavigation />
-        </aside>
-        <div class="col-9">
-          <main>
-            <RouterView />
-          </main>
-        </div>
-      </div>
-      <!--Footer-->
-      <div class="row my-2" id="footerWrapper">
-        <div class="col-12">
-          <FooterBar />
-        </div>
-      </div>
-    </div>
+  <div class="container col-xl-10 my-5 shadow rounded bg-white">
+    <!--Navigation-->
+    <TopNavigation />
+    <!--Header-->
+    <HeaderComponent />
+
+    <!--Seiten Navigation-->
+    <aside v-if="currentSideNavigation.length > 0">
+      <SideNavigation :sideNavigation="currentSideNavigation" :currentPage="currentPage" />
+    </aside>
+
+    <!--Main-->
+    <main>
+      <RouterView />
+    </main>
+
+    <!--Footer-->
+    <FooterBar />
   </div>
 </template>
