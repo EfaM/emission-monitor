@@ -3,17 +3,7 @@
     <h1>{{ $t('title') }}</h1>
     <h2>Shared Ground Organization</h2>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequuntur ad illo dolor
-      aliquid, labore magni officia. Cum, voluptas eaque eius labore ducimus facere cupiditate
-      temporibus doloribus nesciunt beatae dignissimos fugiat minima at ut voluptatum magni qui
-      omnis, libero aliquam, quaerat quasi molestias architecto? Nemo voluptas laborum labore
-      molestias, ipsa numquam odio! Reprehenderit autem saepe ut magnam ex dolores id, enim
-      veritatis ipsam. Explicabo, quo voluptatum distinctio sunt sit earum corrupti? Pariatur
-      necessitatibus cum recusandae commodi neque. Quas, soluta labore aliquid deserunt harum
-      tempora. Deserunt ex placeat reiciendis praesentium molestias. Sit inventore maiores facere
-      voluptatem voluptates. Harum quos suscipit beatae est eius perspiciatis earum laudantium?
-      Inventore et quas cumque esse sint laborum numquam, eius doloribus beatae similique magnam
-      iure repudiandae?
+      Lorem ipsum dolor sit amet <consectetur class="Lorem20"></consectetur>
     </p>
   </section>
   <section id="shared-e-e-r">

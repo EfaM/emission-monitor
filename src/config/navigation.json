@@ -2,8 +2,8 @@
   "topNavItems": [
     {
       "navPosition": 1,
-      "linkTitle": "topNavigation.datenlage",
-      "urlpath": "datenlage"
+      "linkTitle": "topNavigation.reporting",
+      "urlpath": "reporting"
     },
     {
       "navPosition": 2,

@@ -5,6 +5,7 @@ import DatenlageView from '../views/DatenlageView.vue'
 import StellenangeboteView from '../views/StellenangeboteView.vue'
 import HandlungsraeumeView from '../views/HandlungsraeumeView.vue'
 import EmissionsMonitorView from '../views/EmissionsMonitorView.vue'
+import ReportingView from '../views/ReportingView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +18,11 @@ const router = createRouter({
     {
       path: '/home',
       redirect: '/',
+    },
+    {
+      path: '/reporting',
+      redirect: 'reporting',
+      component: ReportingView,
     },
     {
       path: '/emissions-monitor',
