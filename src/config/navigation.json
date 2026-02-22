@@ -56,26 +56,21 @@
         "title": "Partnerschaften"
       }
     ],
-    "handlungsraeume": [
+    "reporting": [
       {
         "navPosition": 1,
-        "hash": "#ue1",
-        "title": "Ü1"
+        "hash": "#gutesReporting",
+        "title": "Gutes Reporting"
       },
       {
         "navPosition": 2,
-        "hash": "#die-vision",
-        "title": "Die Vision"
+        "hash": "#reportingEntscheident",
+        "title": "Warum Reporting entscheident ist"
       },
       {
         "navPosition": 3,
-        "hash": "#emission-monitor",
-        "title": "Emissions Monitor"
-      },
-      {
-        "navPosition": 4,
-        "hash": "#partnerschaften",
-        "title": "Partnerschaften"
+        "hash": "#merkmaleReporting",
+        "title": "Was macht gutes Reporting aus?"
       }
     ]
   }

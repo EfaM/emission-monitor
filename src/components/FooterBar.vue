@@ -7,7 +7,7 @@ const nav = navConfigData.FooterItems
 <template>
   <footer class="navbar navbar-expand-sm my-4 bg-white border-top">
     <div class="container-fluid">
-        <ul class="navbar-nav me-auto mb-2">
+        <ul class="navbar-nav ms-auto mb-2">
           <li v-for="navItem in nav" :key="navItem.navPosition" class="nav-item">
             <RouterLink :to="'/' + navItem.urlpath" class="nav-link" active-class="active">
               {{ navItem.linkTitle }}
