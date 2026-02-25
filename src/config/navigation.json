@@ -9,27 +9,17 @@
       "navPosition": 2,
       "linkTitle": "topNavigation.emissions-monitor",
       "urlpath": "emissions-monitor"
-    },
-    {
-      "navPosition": 3,
-      "linkTitle": "topNavigation.handlungsraeume",
-      "urlpath": "handlungsraeume"
     }
   ],
   "FooterItems": [
     {
-      "navPosition": 1,
-      "linkTitle": "Stellenangebote",
-      "urlpath": "stellenangebote"
-    },
-    {
       "navPosition": 2,
-      "linkTitle": "Datenschutz",
+      "linkTitle": "footerNavigation.datenschutz",
       "urlpath": "datenschutz"
     },
     {
       "navPosition": 3,
-      "linkTitle": "Impressum",
+      "linkTitle": "footerNavigation.impressum",
       "urlpath": "impressum"
     }
   ],
@@ -59,18 +49,18 @@
     "reporting": [
       {
         "navPosition": 1,
-        "hash": "#gutesReporting",
-        "title": "Gutes Reporting"
+        "hash": "#nachhaltigesReporting",
+        "title": "Reporting.nachhaltigesReporting.title"
       },
       {
         "navPosition": 2,
-        "hash": "#reportingEntscheident",
-        "title": "Warum Reporting entscheident ist"
+        "hash": "#reportingEntscheidend",
+        "title": "Reporting.reportingEntscheidend.title"
       },
       {
         "navPosition": 3,
         "hash": "#merkmaleReporting",
-        "title": "Was macht gutes Reporting aus?"
+        "title": "Reporting.merkmaleReporting.title"
       }
     ]
   }

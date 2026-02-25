@@ -28,7 +28,7 @@ function switchLanguage(currentLanguage) {
 </script>
 
 <template>
-  <nav class="navbar sticky-top z-3 navbar-expand-sm my-4 bg-white border-bottom">
+  <nav class="navbar sticky-top z-3 navbar-expand-sm bg-white border-bottom">
     <div class="container-fluid">
       <RouterLink to="/" class="navbar-brand">
         <img src="@/assets/navlogo.png" alt="SGO Logo" height="40" />

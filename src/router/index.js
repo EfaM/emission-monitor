@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ImpressumView from '../views/ImpressumView.vue'
-import StellenangeboteView from '../views/StellenangeboteView.vue'
-import HandlungsraeumeView from '../views/HandlungsraeumeView.vue'
+import DatenschutzView from '../views/DatenschutzView.vue'
 import EmissionsMonitorView from '../views/EmissionsMonitorView.vue'
 import ReportingView from '../views/ReportingView.vue'
 
@@ -29,14 +28,9 @@ const router = createRouter({
       component: EmissionsMonitorView,
     },
     {
-      path: '/handlungsraeume',
-      name: 'handlungsraeume',
-      component: HandlungsraeumeView,
-    },
-    {
-      path: '/stellenangebote',
-      name: 'stellenangebote',
-      component: StellenangeboteView,
+      path: '/datenschutz',
+      name: 'datenschutz',
+      component: DatenschutzView,
     },
     {
       path: '/impressum',

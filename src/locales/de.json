@@ -2,7 +2,145 @@
   "topNavigation": {
     "home": "home",
     "reporting": "Reporting",
-    "emissions-monitor": "Emmisions Monitor",
-    "handlungsraeume": "Handlungsräume"
+    "emissions-monitor": "Emmisions Monitor"
+  },
+  "footerNavigation":{
+    "datenschutz": "Datenschutz",
+    "impressum":"Impressum"
+  },
+  "Reporting":{
+    "nachhaltigesReporting":{
+      "title":"Nachhaltiges Emissionsreporting",
+      "content": [
+        "Nachhaltiges Emissionsreporting ist mehr als die Veröffentlichung einzelner Kennzahlen. Es bildet die Grundlage für Transparenz, Vergleichbarkeit und fundierte Transformationsprozesse in Wirtschaft und Gesellschaft.",
+        "Gutes Reporting zeichnet sich durch Vollständigkeit, methodische Klarheit, Konsistenz über Zeit und transparente Dokumentation aus. Nur wenn Emissionsdaten nachvollziehbar erhoben, einheitlich strukturiert und regelmäßig aktualisiert werden, ermöglichen sie eine realistische Bewertung unternehmerischer Klimaverantwortung.",
+        "Die Shared Ground Organization analysiert Emissionsberichte anhand klar definierter Kriterien und ordnet veröffentlichte Daten im Kontext internationaler Standards ein."
+      ]
+    },
+    "reportingEntscheidend":{
+      "title":"Warum Reporting so entscheidend ist",
+      "unternehmerischeVerantwortung":[
+        "Emissionsdaten sind heute ein zentraler Bestandteil unternehmerischer Verantwortung. Sie beeinflussen Investitionsentscheidungen, regulatorische Bewertungen, Kreditvergaben, öffentliche Wahrnehmung und strategische Unternehmensplanung.",
+        "In einer zunehmend klimaregulierenden Wirtschaft werden Emissionskennzahlen zu einer wesentlichen Entscheidungsgrundlage für:"
+      ],
+      "listitems":[
+        "Investoren und Finanzmärkte",
+        "Politische Institutionen",
+        "Geschäftspartner und Lieferanten",
+        "Medien und Öffentlichkeit",
+        "Interne Steuerungsprozesse"
+      ],
+      "auswirkungen":[
+        "Fehlt eine transparente und standardisierte Berichterstattung, entstehen Informationsasymmetrien. Unternehmen können ihre tatsächliche Klimawirkung nur eingeschränkt bewerten, Stakeholder können Risiken nicht zuverlässig einschätzen, und Vergleichbarkeit zwischen Organisationen bleibt eingeschränkt.",
+        "Transparenz schafft Vertrauen – und Vertrauen ist eine Voraussetzung für langfristige wirtschaftliche Stabilität."
+      ]
+    },
+    "merkmaleReporting":{
+      "title": "Was macht gutes Reporting aus?",
+      "content": [
+          "Ein qualitativ hochwertiges Emissionsreporting berücksichtigt sämtliche relevanten Emissionsquellen entlang der gesamten Wertschöpfungskette. Dazu gehören direkte Emissionen aus eigenen Quellen (Scope 1), indirekte Emissionen aus eingekaufter Energie (Scope 2) sowie weitere indirekte Emissionen entlang der Liefer- und Nutzungskette (Scope 3). Gerade Scope-3-Emissionen machen in vielen Branchen den größten Anteil aus. Ihre Nichtberücksichtigung führt zu erheblichen Verzerrungen bei der Bewertung der tatsächlichen Klimawirkung eines Unternehmens. Vollständigkeit ist daher keine optionale Ergänzung, sondern die Grundlage belastbarer Aussagen.",
+          "Transparenz bedeutet mehr als das bloße Veröffentlichen von Zahlen. Ein gutes Reporting legt offen, welche organisatorischen und operativen Systemgrenzen gelten, welche Emissionsfaktoren und Berechnungsmethoden verwendet werden, welche Annahmen getroffen wurden und auf welche Datenquellen sich die Berechnungen stützen. Ohne diese Offenlegung bleiben Emissionszahlen isolierte Werte ohne Kontext. Nachvollziehbarkeit und Vergleichbarkeit sind nur gegeben, wenn die zugrunde liegende Methodik klar dokumentiert ist."        
+        ],
+      "featured": "Externe Verifizierungen oder unabhängige Prüfungen erhöhen die Glaubwürdigkeit veröffentlichter Daten deutlich. Sie reduzieren das Risiko unbeabsichtigter Fehler und stärken das Vertrauen von Investoren, Regulatoren und Öffentlichkeit. Transparente Berichte weisen aus, ob eine externe Prüfung erfolgt ist, welcher Prüfstandard angewendet wurde, welche Bereiche geprüft wurden und wo mögliche Einschränkungen bestehen. Die Validierung ist ein zentrales Qualitätsmerkmal moderner Nachhaltigkeitsberichterstattung.",
+      "kennzahlen":"Aussagekräftiges Reporting beschränkt sich nicht auf absolute Emissionen, sondern nutzt ergänzend relative Kennzahlen wie Emissionen pro Umsatz, Produktionseinheit oder Mitarbeiter. Nur durch standardisierte und konsistent definierte Metriken lassen sich Unternehmen sektorübergreifend einordnen. Ebenso entscheidend ist die zeitliche Konsistenz: Regelmäßige Aktualisierungen, stabile Methoden über mehrere Berichtsperioden hinweg und transparente Darstellung von Änderungen ermöglichen belastbare Zeitreihen und eine fundierte Bewertung langfristiger Klimastrategien."
+    }
+  },
+  "Impressum":{
+    "title": "Impressum",
+    "content":[
+      "Angaben gemäß § 5 TMG",
+      "Shared Ground Organization (SGO)",
+      "Gemeinnützige Organisation für Klimatransparenz und Emissionsmonitoring"
+    ],
+    "vertretenduch":"Vertreten durch den Vorstand",
+    "vorstand":[
+      "Miriam Khalil (Vorsitzende)",
+      "Jonathan Mustermann"
+    ],
+    "hauptsitz":"Hauptsitz",
+    "adresse":[
+      "Shared Ground Organization",
+      "Hafensteigstraße 47",
+      "60327 Frankfurt am Main",
+      "Deutschland"
+    ],
+    "kontakt":"Kontakt",
+    "telefon": "Telefon: +49 (0) 69 1234 1234",
+    "email": "Email:",
+    "emailadresse":"kontakt@sgo.org",
+    "registereintrag":"Registereintrag",
+    "regeintrag":[
+      "Eingetragen im Vereinsregister",
+      "Registergericht: Amtsgericht Frankfurt am Main",
+      "Registernummer: VR 18572"
+    ],
+    "umsatzsteuer":"Umsatzsteuer-ID",
+    "umID":[
+      "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:",
+      "DE 312 789 987"
+    ],
+    "verantInhalt":"Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+    "verantInhaltlnach":[
+      "Elena Marit Eigler",
+      "Hafenstraße 47",
+      "60327 Frankfurt am Main"
+    ],
+    "haftung":"Haftung für Inhalte",
+    "haftungstext":"Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.",
+    "haftunglinks": "Haftung für Links",
+    "haftunglinktext":"Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte übernehmen wir keine Gewähr.",
+    "urheberrechttitel":"Urheberrecht",
+    "urheberrecht":"Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht."
+  },
+  "Datenschutz":{
+    "title":"Datenschutz",
+    "verantStelle":"Verantwortliche Stelle",
+    "verantDat":"Verantwortlich für die Datenverarbeitung auf dieser Website ist:",
+    "adresse":[
+      "Shared Ground Organization",
+      "Hafensteigstraße 47",
+      "60327 Frankfurt am Main",
+      "Deutschland"
+    ],    
+    "email": "Email:",
+    "emailadresse":"kontakt@sgo.org",
+    "allgHin":"Allgemeine Hinweise",
+    "schutzanliegen":[
+      "Der Schutz Ihrer personenbezogenen Daten ist uns ein wichtiges Anliegen. Personenbezogene Daten werden auf dieser Website nur im technisch notwendigen Umfang verarbeitet.",
+      "Diese Website verwendet keine Cookies, keine Tracking-Technologien und keine Analyse-Tools. Es findet keine automatisierte Profilbildung statt."
+    ],
+    "logfiles":"Server-Logfiles",
+    "hostProf":"Beim Aufruf dieser Website werden durch den Hosting-Provider automatisch Informationen erfasst und in sogenannten Server-Logfiles gespeichert.",
+    "handlist":"Dabei kann es sich um folgende Daten handeln:",
+    "datenliste":[
+      "IP-Adresse",
+      "Datum und Uhrzeit der Anfrage",
+      "Browsertyp und Browserversion",
+      "Verwendetes Betriebssystem",
+      "Referrer-URL"
+    ],
+    "breitSicherheit":[
+      "Diese Daten dienen ausschließlich der technischen Bereitstellung und Sicherheit der Website und werden nicht mit anderen Datenquellen zusammengeführt.",
+      "Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an stabiler und sicherer Bereitstellung der Website)."
+    ],
+    "kontaaufnahm":"Kontaktaufnahme per E-Mail",
+    "persDaten":[
+      "Wenn Sie uns per E-Mail kontaktieren, werden die von Ihnen übermittelten personenbezogenen Daten (z. B. Name, E-Mail-Adresse, Inhalt der Nachricht) ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.",
+      "Eine Weitergabe an Dritte erfolgt nicht ohne Ihre ausdrückliche Zustimmung.",
+      "Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Verarbeitung zur Durchführung vorvertraglicher Maßnahmen) oder Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen).",
+      "Die Daten werden gelöscht, sobald sie für den Zweck ihrer Erhebung nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten bestehen."
+    ],
+    "ihrRech":"Ihre Rechte",
+    "sieHarech":"Sie haben das Recht:",
+    "reList":[
+      "Auskunft über Ihre gespeicherten personenbezogenen Daten zu erhalten (Art. 15 DSGVO)",
+      "Berichtigung unrichtiger Daten zu verlangen (Art. 16 DSGVO)",
+      "Löschung Ihrer Daten zu verlangen (Art. 17 DSGVO)",
+      "Einschränkung der Verarbeitung zu verlangen (Art. 18 DSGVO)",
+      "Widerspruch gegen die Verarbeitung einzulegen (Art. 21 DSGVO)"
+    ],
+    "asichtbe":"Darüber hinaus haben Sie das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.",
+    "dasiheit":"Datensicherheit",
+    "techOrgMa":"Wir setzen technische und organisatorische Maßnahmen ein, um Ihre Daten gegen Verlust, Manipulation oder unbefugten Zugriff zu schützen."
   }
 }

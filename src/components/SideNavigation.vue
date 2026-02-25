@@ -1,7 +1,9 @@
 <script setup>
 import { RouterLink, useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 const route = useRoute()
 
+const { t } = useI18n()
 const { sideNavigation, currentPage } = defineProps({
   sideNavigation: {
     type: Array,
@@ -13,14 +15,14 @@ const { sideNavigation, currentPage } = defineProps({
 </script>
 
 <template>
-  <ul v-if="sideNavigation.length > 0" class="nav">
+  <ul v-if="sideNavigation.length > 0" class="nav sticky-top">
     <li v-for="item in sideNavigation" :key="item.navPosition" class="nav-item">
       <RouterLink
         :to="{ name: currentPage, hash: item.hash }"
         class="nav-link"
         :class="{ active: route.hash === item.hash }"
       >
-        {{ item.title }}
+        {{ t(item.title) }}
       </RouterLink>
     </li>
   </ul>
