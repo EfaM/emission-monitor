@@ -1,46 +1,106 @@
 {
   "tableHeader": [
     {
+      "id": 0,
+      "key":"id",
+      "title": "Emission.id"
+    },
+    {
       "id": 1,
-      "title": "ID"
+      "key": "company",
+      "title": "Emission.company"
     },
     {
       "id": 2,
-      "title": "Land"
+      "key": "country",
+      "title": "Emission.country"
     },
     {
       "id": 3,
-      "title": "Unternehmen"
+      "key": "scope1",
+      "title": "Emission.scope1"
     },
     {
       "id": 4,
-      "title": "Emission"
+      "key": "scope2",
+      "title": "Emission.scope2"
+    },    
+    {
+      "id": 5,
+      "key": "scope3",
+      "title": "Emission.scope3"
+    },    
+    {
+      "id": 6,
+      "key": "total",
+      "title": "Emission.total"
+    },    
+    {
+      "id": 7,
+      "key": "year",
+      "title": "Emission.year"
     }
   ],
   "tableContent": [
-    {
-      "id": 1,
-      "company": "ReifSCP",
-      "country": "Deutschland",
-      "emission": 13446450693409
-    },
-    {
-      "id": 3,
-      "company": "RohÖl Industries",
-      "country": "Frankreich",
-      "emission": 13446450693409
-    },
-    {
-      "id": 4,
-      "company": "ReifSCP",
-      "country": "Deutschland",
-      "emission": 13446450693409
-    },
-    {
-      "id": 2,
-      "company": "MetalComp",
-      "country": "USA",
-      "emission": 1344693409
-    }
-  ]
+  { "id": 1, "company": "EuroSteel Manufacturing", "country": "Deutschland", "scope1": 6.0, "scope2": 2.0, "scope3": 13.1, "total": 21.1, "year": 2024 },
+  { "id": 2, "company": "Atlantic Oil Corp", "country": "USA", "scope1": 14.8, "scope2": 3.7, "scope3": 22.0, "total": 40.5, "year": 2022 },
+  { "id": 3, "company": "GreenByte Technologies", "country": "Irland", "scope1": 1.0, "scope2": 2.6, "scope3": 29.1, "total": 32.7, "year": 2023 },
+  { "id": 4, "company": "Nordic Transport Lines", "country": "Norwegen", "scope1": 4.6, "scope2": 0.8, "scope3": 10.2, "total": 15.6, "year": 2025 },
+  { "id": 5, "company": "Mediterranean Foods SA", "country": "Italien", "scope1": 2.5, "scope2": 0.8, "scope3": 17.0, "total": 20.3, "year": 2024 },
+  { "id": 6, "company": "Alpine Minerals AG", "country": "Österreich", "scope1": 7.3, "scope2": 1.2, "scope3": 6.7, "total": 15.2, "year": 2020 },
+  { "id": 7, "company": "Pacific Textile Group", "country": "Vietnam", "scope1": 1.4, "scope2": 1.8, "scope3": 23.4, "total": 26.6, "year": 2021 },
+  { "id": 8, "company": "SolarWind Utilities", "country": "Spanien", "scope1": 3.9, "scope2": 1.3, "scope3": 6.4, "total": 11.6, "year": 2022 },
+  { "id": 9, "company": "Eastern PetroChem", "country": "Südkorea", "scope1": 12.0, "scope2": 3.0, "scope3": 19.1, "total": 34.1, "year": 2023 },
+  { "id": 10, "company": "Baltic Logistics GmbH", "country": "Polen", "scope1": 3.4, "scope2": 0.6, "scope3": 11.0, "total": 15.0, "year": 2024 },
+  { "id": 11, "company": "Andean Resources Ltd.", "country": "Chile", "scope1": 9.1, "scope2": 1.6, "scope3": 7.8, "total": 18.5, "year": 2022 },
+  { "id": 12, "company": "Global Retail Network", "country": "Frankreich", "scope1": 1.3, "scope2": 2.1, "scope3": 31.4, "total": 34.8, "year": 2023 },
+  { "id": 13, "company": "BlueWave Shipping", "country": "Griechenland", "scope1": 6.8, "scope2": 0.9, "scope3": 14.5, "total": 22.2, "year": 2021 },
+  { "id": 14, "company": "Central Energy Partners", "country": "Kanada", "scope1": 10.7, "scope2": 2.9, "scope3": 10.1, "total": 23.7, "year": 2024 },
+  { "id": 15, "company": "Urban Mobility Systems", "country": "Niederlande", "scope1": 1.7, "scope2": 1.2, "scope3": 18.6, "total": 21.5, "year": 2025 },
+  { "id": 16, "company": "DesertFuel Industries", "country": "VAE", "scope1": 14.2, "scope2": 3.4, "scope3": 17.3, "total": 34.9, "year": 2021 },
+  { "id": 17, "company": "NordFarm Agriculture", "country": "Dänemark", "scope1": 3.1, "scope2": 1.0, "scope3": 15.6, "total": 19.7, "year": 2022 },
+  { "id": 18, "company": "SkyBridge Aviation", "country": "USA", "scope1": 10.1, "scope2": 1.0, "scope3": 26.8, "total": 37.9, "year": 2023 },
+  { "id": 19, "company": "EcoBuild Materials", "country": "Schweiz", "scope1": 2.4, "scope2": 0.7, "scope3": 6.1, "total": 9.2, "year": 2020 },
+  { "id": 20, "company": "GlobalPharm Solutions", "country": "Belgien", "scope1": 0.9, "scope2": 1.5, "scope3": 12.7, "total": 15.1, "year": 2022 },
+  { "id": 21, "company": "EuroSteel Manufacturing", "country": "Deutschland", "scope1": 5.6, "scope2": 1.8, "scope3": 12.4, "total": 19.8, "year": 2021 },
+  { "id": 22, "company": "Atlantic Oil Corp", "country": "USA", "scope1": 15.2, "scope2": 3.9, "scope3": 21.6, "total": 40.7, "year": 2023 },
+  { "id": 23, "company": "GreenByte Technologies", "country": "Irland", "scope1": 0.9, "scope2": 2.4, "scope3": 28.7, "total": 32.0, "year": 2022 },
+  { "id": 24, "company": "Nordic Transport Lines", "country": "Norwegen", "scope1": 4.3, "scope2": 0.6, "scope3": 9.8, "total": 14.7, "year": 2024 },
+  { "id": 25, "company": "Mediterranean Foods SA", "country": "Italien", "scope1": 2.4, "scope2": 0.7, "scope3": 16.2, "total": 19.3, "year": 2025 },
+  { "id": 26, "company": "Alpine Minerals AG", "country": "Österreich", "scope1": 7.1, "scope2": 1.1, "scope3": 6.4, "total": 14.6, "year": 2012 },
+  { "id": 27, "company": "Pacific Textile Group", "country": "Vietnam", "scope1": 1.3, "scope2": 1.6, "scope3": 22.9, "total": 25.8, "year": 2014 },
+  { "id": 28, "company": "SolarWind Utilities", "country": "Spanien", "scope1": 3.8, "scope2": 1.2, "scope3": 5.9, "total": 10.9, "year": 2018 },
+  { "id": 29, "company": "Eastern PetroChem", "country": "Südkorea", "scope1": 11.7, "scope2": 2.8, "scope3": 18.5, "total": 33.0, "year": 2024 },
+  { "id": 30, "company": "Baltic Logistics GmbH", "country": "Polen", "scope1": 3.2, "scope2": 0.5, "scope3": 10.4, "total": 14.1, "year": 2025 },
+  { "id": 31, "company": "Andean Resources Ltd.", "country": "Chile", "scope1": 8.9, "scope2": 1.4, "scope3": 7.3, "total": 17.6, "year": 2021 },
+  { "id": 32, "company": "Global Retail Network", "country": "Frankreich", "scope1": 1.1, "scope2": 1.9, "scope3": 30.2, "total": 33.2, "year": 2022 },
+  { "id": 33, "company": "BlueWave Shipping", "country": "Griechenland", "scope1": 6.4, "scope2": 0.7, "scope3": 13.8, "total": 20.9, "year": 2020 },
+  { "id": 34, "company": "Central Energy Partners", "country": "Kanada", "scope1": 10.3, "scope2": 2.6, "scope3": 9.5, "total": 22.4, "year": 2023 },
+  { "id": 35, "company": "Urban Mobility Systems", "country": "Niederlande", "scope1": 1.5, "scope2": 1.1, "scope3": 17.9, "total": 20.5, "year": 2025 },
+  { "id": 36, "company": "DesertFuel Industries", "country": "VAE", "scope1": 13.6, "scope2": 3.1, "scope3": 16.4, "total": 33.1, "year": 2020 },
+  { "id": 37, "company": "NordFarm Agriculture", "country": "Dänemark", "scope1": 2.8, "scope2": 0.9, "scope3": 14.7, "total": 18.4, "year": 2011 },
+  { "id": 38, "company": "SkyBridge Aviation", "country": "USA", "scope1": 9.7, "scope2": 0.8, "scope3": 25.6, "total": 36.1, "year": 2022 },
+  { "id": 39, "company": "EcoBuild Materials", "country": "Schweiz", "scope1": 2.2, "scope2": 0.6, "scope3": 5.3, "total": 8.1, "year": 2012 },
+  { "id": 40, "company": "GlobalPharm Solutions", "country": "Belgien", "scope1": 0.8, "scope2": 1.3, "scope3": 11.9, "total": 14.0, "year": 2013 },
+  { "id": 41, "company": "EuroSteel Manufacturing", "country": "Deutschland", "scope1": 5.4, "scope2": 1.7, "scope3": 12.6, "total": 19.7, "year": 2022 },
+  { "id": 42, "company": "Atlantic Oil Corp", "country": "USA", "scope1": 16.1, "scope2": 4.2, "scope3": 23.5, "total": 43.8, "year": 2024 },
+  { "id": 43, "company": "GreenByte Technologies", "country": "Irland", "scope1": 0.8, "scope2": 2.2, "scope3": 27.9, "total": 30.9, "year": 2021 },
+  { "id": 44, "company": "Nordic Transport Lines", "country": "Norwegen", "scope1": 4.1, "scope2": 0.5, "scope3": 9.4, "total": 14.0, "year": 2023 },
+  { "id": 45, "company": "Mediterranean Foods SA", "country": "Italien", "scope1": 2.9, "scope2": 0.8, "scope3": 18.2, "total": 21.9, "year": 2022 },
+  { "id": 46, "company": "Alpine Minerals AG", "country": "Österreich", "scope1": 6.8, "scope2": 1.0, "scope3": 6.1, "total": 13.9, "year": 2023 },
+  { "id": 47, "company": "Pacific Textile Group", "country": "Vietnam", "scope1": 1.6, "scope2": 1.9, "scope3": 24.8, "total": 28.3, "year": 2024 },
+  { "id": 48, "company": "SolarWind Utilities", "country": "Spanien", "scope1": 3.5, "scope2": 1.0, "scope3": 5.5, "total": 10.0, "year": 2020 },
+  { "id": 49, "company": "Eastern PetroChem", "country": "Südkorea", "scope1": 11.2, "scope2": 2.6, "scope3": 17.4, "total": 31.2, "year": 2022 },
+  { "id": 50, "company": "Baltic Logistics GmbH", "country": "Polen", "scope1": 3.0, "scope2": 0.4, "scope3": 9.8, "total": 13.2, "year": 2021 },
+  { "id": 51, "company": "Andean Resources Ltd.", "country": "Chile", "scope1": 8.3, "scope2": 1.2, "scope3": 6.9, "total": 16.4, "year": 2023 },
+  { "id": 52, "company": "Global Retail Network", "country": "Frankreich", "scope1": 1.4, "scope2": 2.0, "scope3": 29.6, "total": 33.0, "year": 2024 },
+  { "id": 53, "company": "BlueWave Shipping", "country": "Griechenland", "scope1": 6.1, "scope2": 0.6, "scope3": 13.1, "total": 19.8, "year": 2022 },
+  { "id": 54, "company": "Central Energy Partners", "country": "Kanada", "scope1": 9.8, "scope2": 2.4, "scope3": 9.2, "total": 21.4, "year": 2021 },
+  { "id": 55, "company": "Urban Mobility Systems", "country": "Niederlande", "scope1": 1.6, "scope2": 1.0, "scope3": 16.8, "total": 19.4, "year": 2023 },
+  { "id": 56, "company": "DesertFuel Industries", "country": "VAE", "scope1": 13.1, "scope2": 3.0, "scope3": 15.8, "total": 31.9, "year": 2022 },
+  { "id": 57, "company": "NordFarm Agriculture", "country": "Dänemark", "scope1": 2.7, "scope2": 0.8, "scope3": 14.0, "total": 17.5, "year": 2024 },
+  { "id": 58, "company": "SkyBridge Aviation", "country": "USA", "scope1": 8.9, "scope2": 0.7, "scope3": 23.9, "total": 33.5, "year": 2021 },
+  { "id": 59, "company": "EcoBuild Materials", "country": "Schweiz", "scope1": 2.0, "scope2": 0.5, "scope3": 5.0, "total": 7.5, "year": 2023 },
+  { "id": 60, "company": "GlobalPharm Solutions", "country": "Belgien", "scope1": 1.0, "scope2": 1.4, "scope3": 12.3, "total": 14.7, "year": 2024 }
+]
 }

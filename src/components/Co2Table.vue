@@ -1,8 +1,11 @@
 <script setup>
 import { onMounted, computed, ref } from 'vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faArrowDownShortWide as arrowASC } from '@fortawesome/free-solid-svg-icons'
-import { faArrowUpShortWide as arrowDESC } from '@fortawesome/free-solid-svg-icons'
+import { faSquareCaretDown as arrowASC } from '@fortawesome/free-regular-svg-icons'
+import { faSquareCaretUp as arrowDESC } from '@fortawesome/free-regular-svg-icons'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 import SearchBar from './SearchBar.vue'
 
@@ -34,7 +37,11 @@ const searchResults = computed(() => {
       String(row.id).toLocaleLowerCase().includes(searchItem.value) ||
       String(row.company).toLocaleLowerCase().includes(searchItem.value) ||
       String(row.country).toLocaleLowerCase().includes(searchItem.value) ||
-      String(row.emission).toLocaleLowerCase().includes(searchItem.value),
+      String(row.scope1).toLocaleLowerCase().includes(searchItem.value) ||
+      String(row.scope2).toLocaleLowerCase().includes(searchItem.value) ||
+      String(row.scope3).toLocaleLowerCase().includes(searchItem.value) ||
+      String(row.total).toLocaleLowerCase().includes(searchItem.value) ||
+      String(row.year).toLocaleLowerCase().includes(searchItem.value),
   )
 })
 
@@ -47,17 +54,29 @@ const sortedResults = computed(() => {
     let sortingResult = 0
 
     switch (activeID.value) {
-      case 1:
+      case 0:
         sortingResult = a.id - b.id
+        break
+      case 1:
+        sortingResult = a.company.localeCompare(b.company)
         break
       case 2:
         sortingResult = a.country.localeCompare(b.country)
         break
       case 3:
-        sortingResult = a.company.localeCompare(b.company)
+        sortingResult = a.scope1 - b.scope1
         break
       case 4:
-        sortingResult = a.emission - b.emission
+        sortingResult = a.scope2 - b.scope2
+        break
+      case 5:
+        sortingResult = a.scope3 - b.scope3
+        break
+      case 6:
+        sortingResult = a.total - b.total
+        break
+      case 7:
+        sortingResult = a.year - b.year
         break
       default:
         sortingResult = 0
@@ -88,36 +107,44 @@ const sortingEventHandler = (id) => {
 </script>
 
 <template>
-  <h1>Emissions Monitor</h1>
-  <SearchBar @search="onSearch" />
-  <table class="table table-striped">
-    <thead class="table-light">
-      <tr>
-        <th
-          v-for="header in cols"
-          :key="header.id"
-          @click="sortingEventHandler(header.id)"
-          :id="header.id"
-        >
-          <span v-if="activeID === header.id && sorting == 'ASC'">
-            <FontAwesomeIcon :icon="arrowASC" />
-          </span>
-          <span v-else-if="activeID === header.id && sorting == 'DESC'">
-            <FontAwesomeIcon :icon="arrowDESC" />
-          </span>
-          {{ header.title }}
-        </th>
-      </tr>
-    </thead>
-    <tbody class="table-group-divider">
-      <tr v-for="row in sortedResults" :key="row.id">
-        <td>
-          {{ row.id }}
-        </td>
-        <td>{{ row.country }}</td>
-        <td>{{ row.company }}</td>
-        <td>{{ row.emission }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="col-5 ms-auto mt-4 mb-3">
+    <SearchBar @search="onSearch" />
+  </div>
+  <div class="table-responsive">
+    <table class="table table-sm">
+      <thead class="table-light">
+        <tr>
+          <th
+            v-for="header in cols"
+            :key="header.id"
+            @click="sortingEventHandler(header.id)"
+            :id="header.id"
+            class="fw-medium"
+          >
+            <span v-if="activeID === header.id && sorting == 'ASC'">
+              <FontAwesomeIcon :icon="arrowASC" />
+            </span>
+            <span v-else-if="activeID === header.id && sorting == 'DESC'">
+              <FontAwesomeIcon :icon="arrowDESC" />
+            </span>
+            {{ t(header.title) }}
+          </th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider fw-light">
+        <tr v-for="row in sortedResults" :key="row.id">
+          <td v-for="col in cols" :key="col.id" :class="{ 'fw-normal': activeID === col.id }">
+            {{ row[col.key] }}
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="8">
+            {{ t('Emission.einheit') }}
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
 </template>

@@ -1,4 +1,7 @@
 <script setup>
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 const emitSearchItem = defineEmits(['search'])
 const onInput = (searchItem) => {
   emitSearchItem('search', searchItem.target.value)
@@ -11,7 +14,7 @@ const onInput = (searchItem) => {
       type="text"
       @input="onInput"
       class="form-control"
-      placeholder="Suche"
+      :placeholder="t('Emission.suchplatzhalter')"
       aria-label="search"
       aria-describedby="Suche"
     />

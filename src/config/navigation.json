@@ -1,66 +1,55 @@
 {
   "topNavItems": [
     {
-      "navPosition": 1,
+      "linkTitle": "topNavigation.vision",
+      "urlpath": "vision"
+    },
+    {
       "linkTitle": "topNavigation.reporting",
       "urlpath": "reporting"
     },
     {
-      "navPosition": 2,
       "linkTitle": "topNavigation.emissions-monitor",
       "urlpath": "emissions-monitor"
     }
   ],
   "FooterItems": [
     {
-      "navPosition": 2,
       "linkTitle": "footerNavigation.datenschutz",
       "urlpath": "datenschutz"
     },
     {
-      "navPosition": 3,
       "linkTitle": "footerNavigation.impressum",
       "urlpath": "impressum"
     }
   ],
   "sideNavItems": {
-    "home": [
-      {
-        "navPosition": 1,
-        "hash": "#sgo",
-        "title": "Shared Ground Organization"
-      },
-      {
-        "navPosition": 2,
-        "hash": "#die-vision",
-        "title": "Die Vision"
-      },
-      {
-        "navPosition": 3,
-        "hash": "#emission-monitor",
-        "title": "Emissions Monitor"
-      },
-      {
-        "navPosition": 4,
-        "hash": "#partnerschaften",
-        "title": "Partnerschaften"
-      }
-    ],
     "reporting": [
       {
-        "navPosition": 1,
         "hash": "#nachhaltigesReporting",
         "title": "Reporting.nachhaltigesReporting.title"
       },
       {
-        "navPosition": 2,
         "hash": "#reportingEntscheidend",
         "title": "Reporting.reportingEntscheidend.title"
       },
       {
-        "navPosition": 3,
         "hash": "#merkmaleReporting",
         "title": "Reporting.merkmaleReporting.title"
+      }
+    ],
+    "vision":[
+      {
+        "hash": "#unsereVision",
+        "title": "Vision.unsereVision"
+      },
+      {
+        "hash": "#unserAnsatz",
+        "title": "Vision.unserAnsatz"
+      },
+      {
+        "hash": "#transparenz",
+        "title": "Vision.transparenz"
       }
     ]
   }

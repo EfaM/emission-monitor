@@ -1,8 +1,9 @@
 {
   "topNavigation": {
     "home": "home",
+    "vision": "Vision",
     "reporting": "Reporting",
-    "emissions-monitor": "Emmisions Monitor"
+    "emissions-monitor": "Emissions Monitor"    
   },
   "footerNavigation":{
     "datenschutz": "Datenschutz",
@@ -44,6 +45,59 @@
       "featured": "Externe Verifizierungen oder unabhängige Prüfungen erhöhen die Glaubwürdigkeit veröffentlichter Daten deutlich. Sie reduzieren das Risiko unbeabsichtigter Fehler und stärken das Vertrauen von Investoren, Regulatoren und Öffentlichkeit. Transparente Berichte weisen aus, ob eine externe Prüfung erfolgt ist, welcher Prüfstandard angewendet wurde, welche Bereiche geprüft wurden und wo mögliche Einschränkungen bestehen. Die Validierung ist ein zentrales Qualitätsmerkmal moderner Nachhaltigkeitsberichterstattung.",
       "kennzahlen":"Aussagekräftiges Reporting beschränkt sich nicht auf absolute Emissionen, sondern nutzt ergänzend relative Kennzahlen wie Emissionen pro Umsatz, Produktionseinheit oder Mitarbeiter. Nur durch standardisierte und konsistent definierte Metriken lassen sich Unternehmen sektorübergreifend einordnen. Ebenso entscheidend ist die zeitliche Konsistenz: Regelmäßige Aktualisierungen, stabile Methoden über mehrere Berichtsperioden hinweg und transparente Darstellung von Änderungen ermöglichen belastbare Zeitreihen und eine fundierte Bewertung langfristiger Klimastrategien."
     }
+  },
+  "Emission":{
+    "titel":"SGO: Emissions Monitor",
+    "uebEmisWert":[
+      "Die folgenden Daten geben einen strukturierten Überblick über veröffentlichte Emissionswerte ausgewählter Unternehmen, differenziert nach Ländern und Gesamtemissionen. Ziel ist es, Transparenz zu schaffen und Vergleichbarkeit zu ermöglichen.",
+      "Durch die systematische Darstellung nach geografischer Zuordnung wird sichtbar, in welchen Regionen Emissionen in besonderem Umfang anfallen und wo Reduktionspotenziale bestehen. Die Zahlen basieren auf öffentlich zugänglichen Unternehmensberichten und werden nach einheitlichen Kriterien ausgewertet.",
+      "Die Übersicht dient nicht der isolierten Bewertung einzelner Akteure, sondern der Einordnung im internationalen Kontext. Emissionen sind stets im Zusammenhang mit Branche, Wertschöpfungstiefe und Berichtsstandard zu betrachten.",
+      "Transparente Daten bilden die Grundlage für faktenbasierte Diskussionen und gezielte Transformationsprozesse."
+    ],
+    "scope":"Emissionen nach Scope-Kategorien",
+    "ausgewiEmi":"Die ausgewiesenen Emissionsdaten werden gemäß der international etablierten Systematik des Greenhouse Gas Protocol in Scope 1, Scope 2 und Scope 3 unterteilt. Diese Differenzierung ermöglicht eine präzisere Einordnung der unternehmerischen Klimawirkung und schafft Vergleichbarkeit zwischen Organisationen.",
+    "card1":"Scope 1: Direkte Emission",
+    "card1corp":"Umfasst direkte Emissionen aus unternehmenseigenen oder kontrollierten Quellen, etwa aus Verbrennungsprozessen oder firmeneigenen Fahrzeugen.",
+    "card2":"Scope 2: Indirekte Emission",
+    "cardstrom":"Beschreibt indirekte Emissionen aus eingekaufter Energie, insbesondere Strom, Fernwärme oder Kühlung.",
+    "card3":"Scope 3: Emission durch Wertschöpfungsketten",
+    "liefGeschNu":"Beinhaltet weitere indirekte Emissionen entlang der Wertschöpfungskette. Z.B. aus Lieferketten, Geschäftsreisen, Nutzung oder Entsorgung von Produkten. In vielen Branchen stellt Scope 3 den größten Anteil an den Gesamtemissionen dar.",
+    "tabellDarstell":"Die nachfolgende Tabelle bildet diese drei Kategorien ab und ermöglicht eine transparente Darstellung der Emissionsstruktur nach Unternehmen und Ländern. Die Einordnung erfolgt auf Basis veröffentlichter Unternehmensberichte und orientiert sich an anerkannten Berichtsstandards.",
+    "tabelhead":[
+      "ID", "Unternehmen", "Land", "Scope 1", "Scope 2", "Scope 3", "Gesamt", "Jahr"
+    ],
+    "suchplatzhalter":"Suche",
+    "id":"ID",
+    "company":"Unternehmen",
+    "country":"Land",
+    "scope1":"Scope 1 *",
+    "scope2":"Scope 2 *",
+    "scope3":"Scope 3 *",
+    "total":"Gesamt *",
+    "year": "Jahr",
+    "einheit": "* In Millionen Tonnen Emissions-Äquivalente (Mio. T CO2e)"
+  },
+  "Vision":{
+    "unsereVision":"Unsere Vision",
+    "mission" : [
+    "Die Shared Ground Organization (SGO) setzt sich für Transparenz, Vergleichbarkeit und Qualität im Bereich der Emissionsberichterstattung ein. Unser Ziel ist es, öffentlich zugängliche Klimadaten verständlich aufzubereiten, methodisch einzuordnen und in einen internationalen Kontext zu stellen.",
+    "Wir sind überzeugt: Nur verlässliche, nachvollziehbare und standardisierte Daten schaffen die Grundlage für verantwortungsvolle Entscheidungen in Wirtschaft, Politik und Gesellschaft."
+    ],
+    "unserAnsatz": "Unser Ansatz",
+    "arbeitenMethod": "SGO arbeitet datenbasiert und methodisch strukturiert. Wir analysieren veröffentlichte Emissionsberichte nach klar definierten Kriterien und bewerten sie hinsichtlich:",
+    "arbeitList": [
+      "Vollständigkeit (Scope 1–3)",
+      "Methodischer Transparenz",
+      "Konsistenz über Zeit",
+      "Externer Verifizierung",
+      "Vergleichbarkeit relevanter Kennzahlen"
+    ],
+    "verstehenals":"Dabei verstehen wir uns nicht als Kontrollinstanz, sondern als unabhängige Analyseplattform, die Orientierung schafft.",
+    "transparenz": "Warum uns Transparenz wichtig ist",
+    "kapitalstr": [
+      "Emissionsdaten beeinflussen Kapitalströme, regulatorische Anforderungen und strategische Unternehmensentscheidungen. Unklare oder unvollständige Berichterstattung erschwert fundierte Bewertungen und führt zu Informationsasymmetrien.",
+      "Transparenz stärkt Vertrauen. Und Vertrauen ist eine zentrale Voraussetzung für stabile Märkte und eine glaubwürdige Klimatransformation."
+    ]
   },
   "Impressum":{
     "title": "Impressum",

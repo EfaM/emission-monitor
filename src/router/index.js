@@ -4,6 +4,7 @@ import ImpressumView from '../views/ImpressumView.vue'
 import DatenschutzView from '../views/DatenschutzView.vue'
 import EmissionsMonitorView from '../views/EmissionsMonitorView.vue'
 import ReportingView from '../views/ReportingView.vue'
+import VisionView from '../views/VisionView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/emissions-monitor',
       name: 'emissions-Monitor',
       component: EmissionsMonitorView,
+    },
+    {
+      path: '/vision',
+      name: 'vision',
+      component: VisionView,
     },
     {
       path: '/datenschutz',
