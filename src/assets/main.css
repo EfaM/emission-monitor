@@ -6,3 +6,7 @@ h1{
 section{
   margin-bottom: 2em;
 }
+
+.sidenav{
+  top: 70px;
+}

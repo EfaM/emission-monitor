@@ -1,17 +1,13 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <div class="container-fluid">
     <div class="row g-0">
       <aside class="col-12 col-lg-3 border-end">
-        <div class="sticky-top">
-          <slot name="sideNav"/>
-        </div>
+        <slot name="sideNav" />
       </aside>
       <main class="col-12 col-lg-9 py-4 px-4">
-        <slot/>
+        <slot />
       </main>
     </div>
   </div>
