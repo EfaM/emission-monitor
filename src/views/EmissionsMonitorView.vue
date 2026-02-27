@@ -11,10 +11,16 @@ const { t, tm } = useI18n()
       <div class="col-10 mx-auto">
         <section>
           <h1>{{ t('Emission.titel') }}</h1>
-
-          <p v-for="(content, index) in tm('Emission.uebEmisWert')" :key="index">
-            {{ content }}
-          </p>
+          <div class="clearfix">
+            <img
+              src="@/assets/img/monitor.webp"
+              class="col-md-6 float-md-end my-2 ms-md-3"
+              alt="Schmuckbild: Fußabdruck und Daten"
+            />
+            <p v-for="(content, index) in tm('Emission.uebEmisWert')" :key="index">
+              {{ content }}
+            </p>
+          </div>
         </section>
         <section>
           <h2>{{ t('Emission.scope') }}</h2>

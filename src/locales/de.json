@@ -9,6 +9,23 @@
     "datenschutz": "Datenschutz",
     "impressum":"Impressum"
   },
+  "Home":{
+    "titel":"Shared Ground Organization",
+    "untertitel": "Shared Earth. Shared Emissions. Shared Responsibility.",
+    "klimaziel": "Klimaschutz und Klimaziele",
+    "klimaschutz":[
+      "Klimaschutz erfordert mehr als politische Absichtserklärungen.", 
+      "Nationale und internationale Klimaziele definieren konkrete Reduktionspfade für Treibhausgasemissionen und setzen damit einen verbindlichen Rahmen für wirtschaftliches Handeln: Unternehmen tragen maßgeblich dazu bei, ob diese Ziele erreicht werden!",
+      "Voraussetzung dafür ist eine vollständige, nachvollziehbare und konsistente Erfassung ihrer Emissionen. Nur transparente Daten ermöglichen es, Fortschritte realistisch zu bewerten und Transformationsprozesse glaubwürdig einzuordnen."
+    ],
+      "sgoAnaKlima": "Shared Ground Organization analysiert veröffentlichte Emissionsberichte im Kontext bestehender Klimaziele und stärkt so die Vergleichbarkeit und Aussagekraft unternehmerischer Klimaberichterstattung.",
+      "visionCard": "Die Shared Ground Organization (SGO) setzt sich für Transparenz, Vergleichbarkeit und Qualität im Bereich der Emissionsberichterstattung ein.",
+      "visionLink" : "Vision",
+      "nachRep" : "Nachhaltiges Emissionsreporting ist mehr als die Veröffentlichung einzelner Kennzahlen.",
+      "RepLink" : "Reporting",
+      "EmmMonitor": "Wir sammeln Emissionsdaten aus öffentlichen Klimaberichten. Hier geht es zum Emissions Monitor.",
+      "EmmLink" : "Emission Monitor"
+    },
   "Reporting":{
     "nachhaltigesReporting":{
       "title":"Nachhaltiges Emissionsreporting",
