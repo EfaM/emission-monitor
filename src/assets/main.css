@@ -1,3 +1,7 @@
+nav, section{
+  margin-bottom: 4em;
+}
+
 /* Navigation */
 .nav-link {
   color:#325671;
@@ -18,20 +22,29 @@
   color: #65A84C;
 }
 
-/* Button */
+/* Dropdown */
+.dropdown-item:active{
+  background-color: #65A84C;
+  color: #fff;
+}
 
+.dropdown-item:hover{
+  background-color: #65A84C;
+  color: #fff;
+}
+
+/* Button */
 .btn-primary{
   --bs-btn-color: #fff;
-  --bs-btn-bg: #325671;;
+  --bs-btn-bg: #325671;
   --bs-btn-border-color: #325671;
   --bs-btn-hover-bg: #65A84C;
   --bs-btn-hover-border-color: #65A84C;
 }
 
+/* Seitennavigation */
 .sidenav{
   top: 70px;
 }
 
-section{
-  margin-bottom: 2em;
-}
+

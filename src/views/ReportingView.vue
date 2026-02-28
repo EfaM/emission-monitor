@@ -66,7 +66,7 @@ const sideNavigation = navConfigData.sideNavItems['reporting']
         <img
           src="@/assets/img/verify.webp"
           class="col-4 col-md-2 float-md-start my-2 me-md-3"
-          alt="Schmuckbild: Vertragspartner:innen reichen sich die Hände"
+          alt="Schmuckbild: Ein abgeschlossener Umweltvertrag"
         />
         <p>
           {{ t('Reporting.merkmaleReporting.featured') }}
