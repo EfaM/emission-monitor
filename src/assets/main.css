@@ -1,26 +1,31 @@
+/* Navigation */
 .nav-link {
   color:#325671;
 }
 
 .nav-link{
-  /*Links*/
     --bs-link-color: #325671;
-    --bs-nav-link-color: var(--bs-link-color);
-
-  /*Links mit Hover*/
+    --bs-nav-link-color: #325671;
     --bs-link-hover-color:#65A84C;
-    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-hover-color: #65A84C;
 }
-
-/*Activer Link*/
 .navbar-nav .nav-link.active{
   font-weight: 600;
-  color: var(--bs-link-hover-color);
+  color: #65A84C;
 }
 
-/*Link mit Hover*/
 .nav-link:hover, #lang-icon:hover {
-  color: var(--bs-link-hover-color);
+  color: #65A84C;
+}
+
+/* Button */
+
+.btn-primary{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #325671;;
+  --bs-btn-border-color: #325671;
+  --bs-btn-hover-bg: #65A84C;
+  --bs-btn-hover-border-color: #65A84C;
 }
 
 .sidenav{

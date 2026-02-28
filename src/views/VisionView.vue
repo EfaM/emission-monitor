@@ -15,9 +15,16 @@ const sideNavigation = navConfigData.sideNavItems['vision']
     </template>
     <section id="unsereVision">
       <h2>{{ t('Vision.unsereVision') }}</h2>
-      <p v-for="(content, index) in tm('Vision.mission')" :key="index">
-        {{ content }}
-      </p>
+      <div class="clearfix">
+        <img
+          src="@/assets/img/vision.webp"
+          class="col-4 col-md-2 float-md-start my-2 me-md-3"
+          alt="Schmuckbild: Eine Pflanze wächst aus einer Glühbirne."
+        />
+        <p v-for="(content, index) in tm('Vision.mission')" :key="index">
+          {{ content }}
+        </p>
+      </div>
     </section>
     <section id="unserAnsatz">
       <h2>{{ t('Vision.unserAnsatz') }}</h2>
@@ -33,9 +40,16 @@ const sideNavigation = navConfigData.sideNavItems['vision']
     </section>
     <section id="transparenz">
       <h2>{{ t('Vision.transparenz') }}</h2>
-      <p v-for="(content, index) in tm('Vision.kapitalstr')" :key="index">
-        {{ content }}
-      </p>
+      <div class="clearfix">
+        <img
+          src="@/assets/img/gebundeneEmissionen.webp"
+          class="col-10 col-md-6 col-lg-4 float-md-start my-2 ms-md-3"
+          alt="Schmuckbild: Gebundene Emission in der Umwelt"
+        />
+        <p v-for="(content, index) in tm('Vision.kapitalstr')" :key="index">
+          {{ content }}
+        </p>
+      </div>
     </section>
   </TwoColLayout>
 </template>
