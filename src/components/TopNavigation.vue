@@ -61,18 +61,27 @@ function switchLanguage(currentLanguage) {
           </li>
         </ul>
         <!--Sprachauswahl-->
-        <ul class="navbar-nav">
+        <ul class="navbar-nav border-start ms-2 p-1 small">
           <li class="nav-item dropdown">
-            <a class="nav-link" role="button" data-bs-toggle="dropdown">
+            <button
+              class="nav-link btn btn-link p-0"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-label="LangToggle"
+            >
               <span class="navbar-text" id="lang-icon">
                 <FontAwesomeIcon :icon="languageIcon" />
+                {{ locale.toLocaleUpperCase() }}
               </span>
-            </a>
+            </button>
             <ul class="dropdown-menu dropdown-menu-end py-1">
               <li v-for="language in availableLocales" :key="`locale-${language}`">
-                <a class="dropdown-item py-1 px-1 text-center" @click="switchLanguage(language)">
+                <button
+                  class="dropdown-item py-1 px-1 text-center"
+                  @click="switchLanguage(language)"
+                >
                   {{ String(language).toLocaleUpperCase() }}
-                </a>
+                </button>
               </li>
             </ul>
           </li>
