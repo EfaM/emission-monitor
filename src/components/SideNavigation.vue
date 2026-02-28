@@ -15,7 +15,7 @@ const { sideNavigation, currentPage } = defineProps({
 </script>
 
 <template>
-  <ul v-if="sideNavigation.length > 0" class="nav flex-column sticky-top sidenav">
+  <ul v-if="sideNavigation.length > 0" class="nav flex-column sticky-top z-1 sidenav">
     <li v-for="item in sideNavigation" :key="item.navPosition" class="nav-item">
       <RouterLink
         :to="{ name: currentPage, hash: item.hash }"

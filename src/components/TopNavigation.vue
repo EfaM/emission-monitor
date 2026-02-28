@@ -64,7 +64,7 @@ function switchLanguage(currentLanguage) {
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link" role="button" data-bs-toggle="dropdown">
-              <span class="navbar-text">
+              <span class="navbar-text" id="lang-icon">
                 <FontAwesomeIcon :icon="languageIcon" />
               </span>
             </a>

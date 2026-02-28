@@ -1,8 +1,32 @@
+.nav-link, #lang-icon{
+  color:#325671;
+}
 
-section{
-  margin-bottom: 2em;
+.nav-link{
+  /*Links*/
+    --bs-link-color: #325671;
+    --bs-nav-link-color: var(--bs-link-color);
+
+  /*Links mit Hover*/
+    --bs-link-hover-color:#65A84C;
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+}
+
+/*Activer Link*/
+.navbar-nav .nav-link.active{
+  font-weight: 600;
+  color: var(--bs-link-hover-color);
+}
+
+/*Link mit Hover*/
+.nav-link:hover, #lang-icon:hover {
+  color: var(--bs-link-hover-color);
 }
 
 .sidenav{
   top: 70px;
+}
+
+section{
+  margin-bottom: 2em;
 }
