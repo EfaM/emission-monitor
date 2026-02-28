@@ -25,7 +25,7 @@ const router = createRouter({
     },
     {
       path: '/emissions-monitor',
-      name: 'emissions-Monitor',
+      name: 'emissions-monitor',
       component: EmissionsMonitorView,
     },
     {

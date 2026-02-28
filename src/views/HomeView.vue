@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const { t, tm } = useI18n()
@@ -64,7 +65,9 @@ const { t, tm } = useI18n()
                 <p class="card-text">
                   {{ t('Home.visionCard') }}
                 </p>
-                <a href="#" class="btn btn-primary">{{ t('Home.visionLink') }}</a>
+                <RouterLink :to="{ name: 'vision' }" class="btn btn-primary">
+                  {{ t('Home.visionLink') }}
+                </RouterLink>
               </div>
             </div>
           </div>
@@ -76,10 +79,13 @@ const { t, tm } = useI18n()
                 alt="Schmuckbild: SGO-Partnerschaften reichen sich die Hand."
               />
               <div class="card-body">
-                <p class="card-text">
-                  {{ t('Home.nachRep') }}
-                </p>
-                <a href="#" class="btn btn-primary">{{ t('Home.RepLink') }}</a>
+                <p class="card-text">{{ t('Home.nachRep') }}</p>
+                <RouterLink
+                  :to="{ name: 'reporting', hash: '#nachhaltigesReporting' }"
+                  class="btn btn-primary"
+                >
+                  {{ t('Home.RepLink') }}
+                </RouterLink>
               </div>
             </div>
           </div>
@@ -91,10 +97,10 @@ const { t, tm } = useI18n()
                 alt="Schmuckbild: Fußabdruck und Daten"
               />
               <div class="card-body">
-                <p class="card-text">
-                  {{ t('Home.EmmMonitor') }}
-                </p>
-                <a href="#" class="btn btn-primary">{{ t('Home.EmmLink') }}</a>
+                <p class="card-text">{{ t('Home.EmmMonitor') }}</p>
+                <RouterLink :to="{ name: 'emissions-monitor' }" class="btn btn-primary">
+                  {{ t('Home.EmmLink') }}
+                </RouterLink>
               </div>
             </div>
           </div>
