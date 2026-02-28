@@ -20,7 +20,7 @@ const sideNavigation = navConfigData.sideNavItems['reporting']
       <div class="clearfix">
         <img
           src="@/assets/img/partnership.webp"
-          class="col-md-6 float-md-end my-2 ms-md-3"
+          class="col-10 col-md-8 float-md-end my-2 ms-md-3"
           alt="Schmuckbild: Vertragspartner:innen reichen sich die Hände"
         />
         <p v-for="(content, index) in tm('Reporting.nachhaltigesReporting.content')" :key="index">
@@ -65,7 +65,7 @@ const sideNavigation = navConfigData.sideNavItems['reporting']
       <div class="clearfix">
         <img
           src="@/assets/img/verify.webp"
-          class="col-md-2 float-md-start my-2 me-md-3"
+          class="col-4 col-md-2 float-md-start my-2 me-md-3"
           alt="Schmuckbild: Vertragspartner:innen reichen sich die Hände"
         />
         <p>

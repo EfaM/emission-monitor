@@ -14,7 +14,7 @@ const { t, tm } = useI18n()
           <div class="clearfix">
             <img
               src="@/assets/img/monitor.webp"
-              class="col-md-6 float-md-end my-2 ms-md-3"
+              class="col-10 col-md-6 col-lg-4 float-md-end my-2 ms-md-3"
               alt="Schmuckbild: Fußabdruck und Daten"
             />
             <p v-for="(content, index) in tm('Emission.uebEmisWert')" :key="index">
@@ -27,12 +27,12 @@ const { t, tm } = useI18n()
           <p>
             {{ t('Emission.ausgewiEmi') }}
           </p>
-          <div class="row my-4">
-            <div class="col">
-              <div class="card text-center">
+          <div class="row g-4 my-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card text-start text-md-center">
                 <img
                   src="@/assets/img/scopeone.webp"
-                  class="card-img-top p-2"
+                  class="card-img-top p-4"
                   alt="Schmuckbild: Scope 1 Emissionen. Eine Fabrik mit Fuhrpark"
                 />
                 <div class="card-body">
@@ -43,12 +43,12 @@ const { t, tm } = useI18n()
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card text-center">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card text-start text-md-center">
                 <img
                   src="@/assets/img/scopetwo.webp"
-                  class="card-img-top p-2"
-                  alt="Schmuckbild: Scope 1 Emissionen. Eine Fabrik mit Fuhrpark"
+                  class="card-img-top p-4"
+                  alt="Schmuckbild: Scope 2 Emissionen. Strom wird eingekauft."
                 />
                 <div class="card-body">
                   <h5 class="card-title">{{ t('Emission.card2') }}</h5>
@@ -58,11 +58,11 @@ const { t, tm } = useI18n()
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card text-center">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card text-start text-md-center">
                 <img
                   src="@/assets/img/scopethree.webp"
-                  class="card-img-top p-2"
+                  class="card-img-top p-4"
                   alt="Schmuckbild: Scope 1 Emissionen. Eine Fabrik mit Fuhrpark"
                 />
                 <div class="card-body">

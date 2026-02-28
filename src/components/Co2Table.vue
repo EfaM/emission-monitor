@@ -107,8 +107,10 @@ const sortingEventHandler = (id) => {
 </script>
 
 <template>
-  <div class="col-5 ms-auto mt-4 mb-3">
-    <SearchBar @search="onSearch" />
+  <div class="row">
+    <div class="col-12 col-md-8 col-lg-6 mt-4 mb-3">
+      <SearchBar @search="onSearch" />
+    </div>
   </div>
   <div class="table-responsive">
     <table class="table table-sm">
@@ -121,13 +123,13 @@ const sortingEventHandler = (id) => {
             :id="header.id"
             class="fw-medium"
           >
+            {{ t(header.title) }}
             <span v-if="activeID === header.id && sorting == 'ASC'">
               <FontAwesomeIcon :icon="arrowASC" />
             </span>
             <span v-else-if="activeID === header.id && sorting == 'DESC'">
               <FontAwesomeIcon :icon="arrowDESC" />
             </span>
-            {{ t(header.title) }}
           </th>
         </tr>
       </thead>
