@@ -4,8 +4,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-import { createI18n } from 'vue-i18n' //translation
+import { createI18n } from 'vue-i18n' // for translation
 import de from './locales/de.json'
+import eng from './locales/eng.json'
 import ar from './locales/ar.json'
 
 import 'bootstrap'
@@ -15,7 +16,7 @@ const i18n = createI18n({
   legacy: false,
   locale: 'de',
   fallbackLocale: 'de',
-  messages: { de, ar },
+  messages: { de, ar, eng },
 })
 
 app.use(router)

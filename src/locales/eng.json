@@ -1,0 +1,219 @@
+{
+  "topNavigation": {
+    "home": "Home",
+    "vision": "Vision",
+    "reporting": "Reporting",
+    "emissions-monitor": "Emissions Monitor"
+  },
+  "footerNavigation": {
+    "datenschutz": "Privacy Policy",
+    "impressum": "Legal Notice"
+  },
+  "Home": {
+    "titel": "Shared Ground Organization",
+    "untertitel": "Shared Earth. Shared Emissions. Shared Responsibility.",
+    "klimaziel": "Climate Protection and Climate Targets",
+    "klimaschutz": [
+      "Climate protection requires more than political declarations of intent.",
+      "National and international climate targets define concrete reduction pathways for greenhouse gas emissions and establish a binding framework for economic action. Companies play a decisive role in whether these targets are achieved.",
+      "This requires a complete, transparent and consistent recording of emissions. Only reliable data enables realistic progress assessment and credible evaluation of transformation processes."
+    ],
+    "sgoAnaKlima": "The Shared Ground Organization analyzes published emissions reports in the context of existing climate targets, strengthening comparability and the analytical value of corporate climate reporting.",
+    "visionCard": "The Shared Ground Organization (SGO) is committed to transparency, comparability and quality in emissions reporting.",
+    "visionLink": "Vision",
+    "nachRep": "Sustainable emissions reporting goes beyond the publication of individual figures.",
+    "RepLink": "Reporting",
+    "EmmMonitor": "We collect emissions data from publicly available climate reports. Access the Emissions Monitor here.",
+    "EmmLink": "Emissions Monitor"
+  },
+  "Reporting": {
+    "nachhaltigesReporting": {
+      "title": "Sustainable Emissions Reporting",
+      "content": [
+        "Sustainable emissions reporting is more than the publication of isolated figures. It forms the foundation for transparency, comparability and informed transformation processes in business and society.",
+        "High-quality reporting is characterized by completeness, methodological clarity, consistency over time and transparent documentation. Only when emissions data is collected in a traceable, structured and regularly updated manner can corporate climate responsibility be realistically assessed.",
+        "The Shared Ground Organization evaluates emissions reports according to clearly defined criteria and contextualizes published data within international standards."
+      ]
+    },
+    "reportingEntscheidend": {
+      "title": "Why Reporting Matters",
+      "unternehmerischeVerantwortung": [
+        "Emissions data has become a central element of corporate responsibility. It influences investment decisions, regulatory assessments, credit approvals, public perception and strategic planning.",
+        "In an increasingly climate-regulated economy, emissions metrics serve as a key basis for decision-making for:"
+      ],
+      "listitems": [
+        "Investors and financial markets",
+        "Political institutions",
+        "Business partners and suppliers",
+        "Media and the public",
+        "Internal management processes"
+      ],
+      "auswirkungen": [
+        "Without transparent and standardized reporting, information asymmetries arise. Companies cannot reliably assess their climate impact, stakeholders cannot evaluate risks accurately, and comparability across organizations remains limited.",
+        "Transparency builds trust – and trust is a prerequisite for long-term economic stability."
+      ]
+    },
+    "merkmaleReporting": {
+      "title": "What Defines High-Quality Reporting?",
+      "content": [
+        "High-quality emissions reporting considers all relevant emission sources across the entire value chain. This includes direct emissions from owned or controlled sources (Scope 1), indirect emissions from purchased energy (Scope 2), and additional indirect emissions along the supply and usage chain (Scope 3). In many sectors, Scope 3 emissions account for the largest share. Excluding them leads to significant distortions in assessing a company’s actual climate impact. Completeness is therefore not optional but essential for credible reporting.",
+        "Transparency goes beyond publishing figures. Robust reporting discloses organizational and operational boundaries, emission factors used, calculation methodologies, assumptions made and data sources applied. Without such disclosure, emissions figures lack context. Comparability and traceability are only possible when the underlying methodology is clearly documented."
+      ],
+      "featured": "External verification or independent audits significantly enhance the credibility of published data. They reduce the risk of unintended errors and strengthen trust among investors, regulators and the public. Transparent reports indicate whether an external audit has been conducted, which verification standards were applied, which areas were assessed and where limitations exist. Validation is a key quality feature of modern sustainability reporting.",
+      "kennzahlen": "Meaningful reporting does not rely solely on absolute emissions but also uses relative indicators such as emissions per revenue, production unit or employee. Only standardized and consistently defined metrics enable cross-sector comparison. Equally important is temporal consistency: regular updates, stable methodologies across reporting periods and transparent disclosure of changes allow for reliable time series analysis and long-term climate strategy evaluation."
+    }
+  },
+  "Emission": {
+    "titel": "SGO: Emissions Monitor",
+    "uebEmisWert": [
+      "The following data provides a structured overview of published emissions figures of selected companies, differentiated by country and total emissions. The objective is to promote transparency and comparability.",
+      "By systematically presenting data by geographic allocation, it becomes visible where emissions are particularly significant and where reduction potential exists. The figures are based on publicly available corporate reports and are evaluated according to standardized criteria.",
+      "This overview does not aim to evaluate individual actors in isolation but to contextualize emissions internationally. Emissions must always be interpreted in relation to industry, value chain depth and reporting standards.",
+      "Transparent data forms the foundation for fact-based discussions and targeted transformation processes."
+    ],
+    "scope": "Emissions by Scope Categories",
+    "ausgewiEmi": "The reported emissions data follows the internationally established methodology of the Greenhouse Gas Protocol and is categorized into Scope 1, Scope 2 and Scope 3. This differentiation enables a more precise assessment of corporate climate impact and enhances comparability between organizations.",
+    "card1": "Scope 1: Direct Emissions",
+    "card1corp": "Covers direct emissions from company-owned or controlled sources, such as combustion processes or company vehicles.",
+    "card2": "Scope 2: Indirect Emissions",
+    "cardstrom": "Refers to indirect emissions from purchased energy, particularly electricity, district heating or cooling.",
+    "card3": "Scope 3: Value Chain Emissions",
+    "liefGeschNu": "Includes other indirect emissions along the value chain, such as supply chains, business travel, product use and end-of-life treatment. In many sectors, Scope 3 accounts for the largest share of total emissions.",
+    "tabellDarstell": "The table below presents these three categories and enables transparent visualization of emissions structures by company and country. Classification is based on published corporate reports and aligned with recognized reporting standards.",
+    "tabelhead": [
+      "ID", "Company", "Country", "Scope 1", "Scope 2", "Scope 3", "Total", "Year"
+    ],
+    "suchplatzhalter": "Search",
+    "id": "ID",
+    "company": "Company",
+    "country": "Country",
+    "scope1": "Scope 1 *",
+    "scope2": "Scope 2 *",
+    "scope3": "Scope 3 *",
+    "total": "Total *",
+    "year": "Year",
+    "einheit": "* In million tonnes of CO2 equivalent (Mt CO2e)"
+  },
+  "Vision": {
+    "unsereVision": "Our Vision",
+    "mission": [
+      "The Shared Ground Organization (SGO) is committed to transparency, comparability and quality in emissions reporting. Our objective is to structure publicly available climate data in a clear and understandable way, to contextualize it methodologically and to position it within an international framework.",
+      "We are convinced that only reliable, traceable and standardized data can provide the foundation for responsible decision-making in business, politics and society."
+    ],
+    "unserAnsatz": "Our Approach",
+    "arbeitenMethod": "SGO operates on a data-driven and methodologically structured basis. We analyze published emissions reports according to clearly defined criteria and assess them with regard to:",
+    "arbeitList": [
+      "Completeness (Scope 1–3)",
+      "Methodological transparency",
+      "Consistency over time",
+      "External verification",
+      "Comparability of relevant metrics"
+    ],
+    "verstehenals": "We do not see ourselves as a control authority, but as an independent analytical platform providing orientation and structured insight.",
+    "transparenz": "Why Transparency Matters",
+    "kapitalstr": [
+      "Emissions data influences capital flows, regulatory requirements and corporate strategy. Incomplete or unclear reporting complicates sound evaluation and creates information asymmetries.",
+      "Transparency strengthens trust. And trust is a fundamental prerequisite for stable markets and a credible climate transition."
+    ]
+  },
+
+  "Impressum": {
+    "title": "Legal Notice",
+    "content": [
+      "Information pursuant to Section 5 of the German Telemedia Act (TMG)",
+      "Shared Ground Organization (SGO)",
+      "Non-profit organization for climate transparency and emissions monitoring"
+    ],
+    "vertretenduch": "Represented by the Executive Board",
+    "vorstand": [
+      "Miriam Khalil (Chairwoman)",
+      "Jonathan Mustermann"
+    ],
+    "hauptsitz": "Head Office",
+    "adresse": [
+      "Shared Ground Organization",
+      "Hafensteigstraße 47",
+      "60327 Frankfurt am Main",
+      "Germany"
+    ],
+    "kontakt": "Contact",
+    "telefon": "Phone: +49 (0) 69 1234 1234",
+    "email": "Email:",
+    "emailadresse": "kontakt@sgo.org",
+    "registereintrag": "Register Entry",
+    "regeintrag": [
+      "Registered in the Association Register",
+      "Register Court: District Court Frankfurt am Main",
+      "Registration Number: VR 18572"
+    ],
+    "umsatzsteuer": "VAT Identification Number",
+    "umID": [
+      "VAT ID pursuant to Section 27a German VAT Act:",
+      "DE 312 789 987"
+    ],
+    "verantInhalt": "Responsible for content pursuant to Section 55 (2) RStV",
+    "verantInhaltlnach": [
+      "Elena Marit Eigler",
+      "Hafenstraße 47",
+      "60327 Frankfurt am Main"
+    ],
+    "haftung": "Liability for Content",
+    "haftungstext": "As a service provider, we are responsible for our own content on these pages in accordance with general laws pursuant to Section 7 (1) TMG. However, pursuant to Sections 8 to 10 TMG, we are not obligated to monitor transmitted or stored third-party information.",
+    "haftunglinks": "Liability for Links",
+    "haftunglinktext": "Our website contains links to external third-party websites over whose content we have no control. Therefore, we cannot assume any liability for such external content.",
+    "urheberrechttitel": "Copyright",
+    "urheberrecht": "The content and works created by the website operators on these pages are subject to German copyright law."
+  },
+
+  "Datenschutz": {
+    "title": "Privacy Policy",
+    "verantStelle": "Responsible Entity",
+    "verantDat": "The entity responsible for data processing on this website is:",
+    "adresse": [
+      "Shared Ground Organization",
+      "Hafensteigstraße 47",
+      "60327 Frankfurt am Main",
+      "Germany"
+    ],
+    "email": "Email:",
+    "emailadresse": "kontakt@sgo.org",
+    "allgHin": "General Information",
+    "schutzanliegen": [
+      "The protection of your personal data is important to us. Personal data is processed on this website only to the extent technically necessary.",
+      "This website does not use cookies, tracking technologies or analytics tools. No automated profiling takes place."
+    ],
+    "logfiles": "Server Log Files",
+    "hostProf": "When accessing this website, information is automatically collected by the hosting provider and stored in so-called server log files.",
+    "handlist": "This may include the following data:",
+    "datenliste": [
+      "IP address",
+      "Date and time of request",
+      "Browser type and version",
+      "Operating system used",
+      "Referrer URL"
+    ],
+    "breitSicherheit": [
+      "This data is used exclusively to ensure the technical provision and security of the website and is not combined with other data sources.",
+      "The legal basis is Article 6(1)(f) GDPR (legitimate interest in the stable and secure provision of the website)."
+    ],
+    "kontaaufnahm": "Contact via Email",
+    "persDaten": [
+      "If you contact us by email, the personal data transmitted (e.g., name, email address, message content) will be used exclusively for processing your request.",
+      "Your data will not be passed on to third parties without your explicit consent.",
+      "Processing is carried out on the basis of Article 6(1)(b) GDPR (performance of pre-contractual measures) or Article 6(1)(f) GDPR (legitimate interest in responding to inquiries).",
+      "The data will be deleted as soon as it is no longer required for the purpose of its collection and no statutory retention obligations apply."
+    ],
+    "ihrRech": "Your Rights",
+    "sieHarech": "You have the right to:",
+    "reList": [
+      "Obtain information about your stored personal data (Art. 15 GDPR)",
+      "Request correction of inaccurate data (Art. 16 GDPR)",
+      "Request deletion of your data (Art. 17 GDPR)",
+      "Request restriction of processing (Art. 18 GDPR)",
+      "Object to processing (Art. 21 GDPR)"
+    ],
+    "asichtbe": "You also have the right to lodge a complaint with a data protection supervisory authority.",
+    "dasiheit": "Data Security",
+    "techOrgMa": "We implement technical and organizational measures to protect your data against loss, manipulation or unauthorized access."
+  }
+}
