@@ -2,15 +2,13 @@
 import { RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faHouse as HomeIcon } from '@fortawesome/free-solid-svg-icons'
-import { faLanguage as languageIcon } from '@fortawesome/free-solid-svg-icons/faLanguage'
+import { faHouse as HomeIcon, faLanguage as languageIcon } from '@fortawesome/free-solid-svg-icons'
 
 import navConfigData from '../config/navigation.json'
 
-const { t } = useI18n()
 const nav = navConfigData.topNavItems
 
-const { locale, availableLocales } = useI18n({ useScope: 'global' })
+const { t, locale, availableLocales } = useI18n({ useScope: 'global' })
 
 function switchLanguage(currentLanguage) {
   locale.value = currentLanguage
@@ -28,9 +26,9 @@ function switchLanguage(currentLanguage) {
 </script>
 
 <template>
-  <nav class="navbar sticky-top z-3 navbar-expand-sm bg-white border-bottom">
-    <div class="container-fluid">
-      <RouterLink to="/" class="navbar-brand">
+  <nav class="navbar fixed-top z-3 navbar-expand-sm bg-white border-bottom">
+    <div class="container">
+      <RouterLink to="/" class="navbar-brand px-1">
         <img src="@/assets/img/logo.webp" alt="SGO Logo" height="40" />
       </RouterLink>
 
@@ -48,13 +46,13 @@ function switchLanguage(currentLanguage) {
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!--Navigationselemente-->
-        <ul class="navbar-nav ms-auto mb-2">
+        <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
           <li class="nav-item">
             <RouterLink to="/" class="nav-link" active-class="active">
               <FontAwesomeIcon :icon="HomeIcon" />
             </RouterLink>
           </li>
-          <li v-for="navItem in nav" :key="navItem.navPosition" class="nav-item">
+          <li v-for="navItem in nav" :key="navItem.urlpath" class="nav-item">
             <RouterLink :to="'/' + navItem.urlpath" class="nav-link" active-class="active">
               {{ t(navItem.linkTitle) }}
             </RouterLink>
@@ -71,7 +69,7 @@ function switchLanguage(currentLanguage) {
             >
               <span class="navbar-text" id="lang-icon">
                 <FontAwesomeIcon :icon="languageIcon" />
-                {{ locale.toLocaleUpperCase() }}
+                {{ locale.toUpperCase() }}
               </span>
             </button>
             <ul class="dropdown-menu dropdown-menu-end py-1">

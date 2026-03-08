@@ -5,10 +5,10 @@ import FooterBar from '@/components/FooterBar.vue'
 
 <template>
   <div class="container">
-    <div class="my-5 p-5 shadow rounded bg-white">
-      <!--Header-->
-      <HeaderComponent />
+    <!--Header-->
+    <HeaderComponent />
 
+    <div class="my-5 p-3 p-lg-5 shadow rounded bg-white">
       <!--Main-->
       <RouterView />
 

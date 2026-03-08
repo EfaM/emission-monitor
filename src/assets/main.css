@@ -1,13 +1,10 @@
-nav, section{
+section{
   margin-bottom: 4em;
 }
 
 /* Navigation */
-.nav-link {
-  color:#325671;
-}
-
 .nav-link{
+    color:#325671;
     --bs-link-color: #325671;
     --bs-nav-link-color: #325671;
     --bs-link-hover-color:#65A84C;
@@ -23,12 +20,7 @@ nav, section{
 }
 
 /* Dropdown */
-.dropdown-item:active{
-  background-color: #65A84C;
-  color: #fff;
-}
-
-.dropdown-item:hover{
+.dropdown-item:active, .dropdown-item:hover{
   background-color: #65A84C;
   color: #fff;
 }
@@ -44,6 +36,7 @@ nav, section{
 
 /* Seitennavigation */
 .sidenav{
+  position: sticky;
   top: 70px;
 }
 

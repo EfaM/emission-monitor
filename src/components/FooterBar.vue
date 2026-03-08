@@ -3,14 +3,14 @@ import { RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 import navConfigData from '../config/navigation.json'
-const nav = navConfigData.FooterItems
+const nav = navConfigData.footerItems
 </script>
 
 <template>
-  <footer class="navbar navbar-expand-sm my-4 bg-white border-top">
-    <div class="container-fluid">
-      <ul class="navbar-nav ms-auto mb-2">
-        <li v-for="navItem in nav" :key="navItem.navPosition" class="nav-item">
+  <footer class="my-4 bg-white border-top">
+    <div class="container">
+      <ul class="navbar-nav flex-row justify-content-end gap-3 pt-3">
+        <li v-for="navItem in nav" :key="navItem.urlpath" class="nav-item">
           <RouterLink :to="'/' + navItem.urlpath" class="nav-link" active-class="active">
             {{ t(navItem.linkTitle) }}
           </RouterLink>

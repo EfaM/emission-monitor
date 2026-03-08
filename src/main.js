@@ -4,9 +4,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-import { createI18n } from 'vue-i18n' // for translation
+import { createI18n } from 'vue-i18n' // i18n zur Übersetzung
 import de from './locales/de.json'
-import en from './locales/eng.json'
+import en from './locales/en.json'
 import ar from './locales/ar.json'
 
 import 'bootstrap'

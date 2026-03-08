@@ -17,7 +17,7 @@ const activeID = ref(1)
 
 // Such-Komponenten
 const onSearch = (search) => {
-  searchItem.value = search.toString().trim().toLocaleLowerCase()
+  searchItem.value = search.toString().trim().toLowerCase()
 }
 
 onMounted(async () => {
@@ -34,14 +34,14 @@ const searchResults = computed(() => {
   }
   return rows.value.filter(
     (row) =>
-      String(row.id).toLocaleLowerCase().includes(searchItem.value) ||
-      String(row.company).toLocaleLowerCase().includes(searchItem.value) ||
-      String(row.country).toLocaleLowerCase().includes(searchItem.value) ||
-      String(row.scope1).toLocaleLowerCase().includes(searchItem.value) ||
-      String(row.scope2).toLocaleLowerCase().includes(searchItem.value) ||
-      String(row.scope3).toLocaleLowerCase().includes(searchItem.value) ||
-      String(row.total).toLocaleLowerCase().includes(searchItem.value) ||
-      String(row.year).toLocaleLowerCase().includes(searchItem.value),
+      String(row.id).toLowerCase().includes(searchItem.value) ||
+      String(row.company).toLowerCase().includes(searchItem.value) ||
+      String(row.country).toLowerCase().includes(searchItem.value) ||
+      String(row.scope1).toLowerCase().includes(searchItem.value) ||
+      String(row.scope2).toLowerCase().includes(searchItem.value) ||
+      String(row.scope3).toLowerCase().includes(searchItem.value) ||
+      String(row.total).toLowerCase().includes(searchItem.value) ||
+      String(row.year).toLowerCase().includes(searchItem.value),
   )
 })
 
@@ -108,7 +108,7 @@ const sortingEventHandler = (id) => {
 
 <template>
   <div class="row">
-    <div class="col-12 col-md-8 col-lg-6 mt-4 mb-3">
+    <div class="col-12 col-md-8 col-lg-6 my-3">
       <SearchBar @search="onSearch" />
     </div>
   </div>
@@ -124,10 +124,10 @@ const sortingEventHandler = (id) => {
             class="fw-medium"
           >
             {{ t(header.title) }}
-            <span v-if="activeID === header.id && sorting == 'ASC'">
+            <span v-if="activeID === header.id && sorting === 'ASC'">
               <FontAwesomeIcon :icon="arrowASC" />
             </span>
-            <span v-else-if="activeID === header.id && sorting == 'DESC'">
+            <span v-else-if="activeID === header.id && sorting === 'DESC'">
               <FontAwesomeIcon :icon="arrowDESC" />
             </span>
           </th>

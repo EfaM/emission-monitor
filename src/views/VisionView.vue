@@ -11,7 +11,7 @@ const sideNavigation = navConfigData.sideNavItems['vision']
 <template>
   <TwoColLayout>
     <template #sideNav>
-      <SideNavigation v-bind:sideNavigation="sideNavigation" v-bind:currentPage="vision" />
+      <SideNavigation :sideNavigation="sideNavigation" :currentPage="vision" />
     </template>
     <section id="unsereVision">
       <h2>{{ t('Vision.unsereVision') }}</h2>
@@ -43,7 +43,7 @@ const sideNavigation = navConfigData.sideNavItems['vision']
       <div class="clearfix">
         <img
           src="@/assets/img/gebundeneEmissionen.webp"
-          class="col-10 col-md-6 col-lg-4 float-md-start my-2 ms-md-3"
+          class="col-10 col-md-6 col-lg-4 float-md-start my-2 me-md-3"
           alt="Schmuckbild: Gebundene Emission in der Umwelt"
         />
         <p v-for="(content, index) in tm('Vision.kapitalstr')" :key="index">

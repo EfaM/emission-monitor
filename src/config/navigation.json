@@ -13,7 +13,7 @@
       "urlpath": "emissions-monitor"
     }
   ],
-  "FooterItems": [
+  "footerItems": [
     {
       "linkTitle": "footerNavigation.datenschutz",
       "urlpath": "datenschutz"
@@ -38,7 +38,7 @@
         "title": "Reporting.merkmaleReporting.title"
       }
     ],
-    "vision":[
+    "vision": [
       {
         "hash": "#unsereVision",
         "title": "Vision.unsereVision"
