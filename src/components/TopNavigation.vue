@@ -78,7 +78,7 @@ function switchLanguage(currentLanguage) {
                   class="dropdown-item py-1 px-1 text-center"
                   @click="switchLanguage(language)"
                 >
-                  {{ String(language).toLocaleUpperCase() }}
+                  {{ String(language).toUpperCase() }}
                 </button>
               </li>
             </ul>

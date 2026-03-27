@@ -11,7 +11,7 @@ const sideNavigation = navConfigData.sideNavItems['reporting']
 <template>
   <TwoColLayout>
     <template #sideNav>
-      <SideNavigation :sideNavigation="sideNavigation" :currentPage="reporting" />
+      <SideNavigation :sideNavigation="sideNavigation" currentPage="reporting" />
     </template>
 
     <!--Nachhaltiges Emissionsreporting-->

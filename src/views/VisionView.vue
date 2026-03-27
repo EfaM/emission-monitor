@@ -11,7 +11,7 @@ const sideNavigation = navConfigData.sideNavItems['vision']
 <template>
   <TwoColLayout>
     <template #sideNav>
-      <SideNavigation :sideNavigation="sideNavigation" :currentPage="vision" />
+      <SideNavigation :sideNavigation="sideNavigation" currentPage="vision" />
     </template>
     <section id="unsereVision">
       <h2>{{ t('Vision.unsereVision') }}</h2>
