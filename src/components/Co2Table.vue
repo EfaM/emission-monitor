@@ -7,26 +7,19 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
+// Suchen
+
 import SearchBar from './SearchBar.vue'
 
 const cols = ref([])
 const rows = ref([])
 const searchItem = ref('')
-const sorting = ref('ASC')
+const sortingOrder = ref('ASC')
 const activeID = ref(1)
 
-// Such-Komponenten
 const onSearch = (search) => {
   searchItem.value = search.toString().trim().toLowerCase()
 }
-
-onMounted(async () => {
-  const url = new URL('../assets/co2-data.json', import.meta.url)
-  const data = await fetch(url)
-  const json = await data.json()
-  cols.value = json.tableHeader
-  rows.value = json.tableContent
-})
 
 const searchResults = computed(() => {
   if (searchItem.value === '') {
@@ -45,7 +38,15 @@ const searchResults = computed(() => {
   )
 })
 
-// Sortier-Komponenten
+// Sortieren
+
+onMounted(async () => {
+  const url = new URL('../assets/co2-data.json', import.meta.url)
+  const data = await fetch(url)
+  const json = await data.json()
+  cols.value = json.tableHeader
+  rows.value = json.tableContent
+})
 
 const sortedResults = computed(() => {
   const newArray = searchResults.value.slice()
@@ -82,7 +83,7 @@ const sortedResults = computed(() => {
         sortingResult = 0
     }
 
-    if (sorting.value === 'ASC') {
+    if (sortingOrder.value === 'ASC') {
       return sortingResult
     } else {
       return -sortingResult
@@ -95,13 +96,13 @@ const sortedResults = computed(() => {
 const sortingEventHandler = (id) => {
   // Wenn eine neue Spalte angeklickt wurde, beginne bei ASC
   if (id !== activeID.value) {
-    return ((sorting.value = 'ASC'), (activeID.value = id))
+    return ((sortingOrder.value = 'ASC'), (activeID.value = id))
   }
 
-  if (sorting.value === 'ASC') {
-    sorting.value = 'DESC'
+  if (sortingOrder.value === 'ASC') {
+    sortingOrder.value = 'DESC'
   } else {
-    sorting.value = 'ASC'
+    sortingOrder.value = 'ASC'
   }
 }
 </script>
@@ -124,10 +125,10 @@ const sortingEventHandler = (id) => {
             class="fw-medium"
           >
             {{ t(header.title) }}
-            <span v-if="activeID === header.id && sorting === 'ASC'">
+            <span v-if="activeID === header.id && sortingOrder === 'ASC'">
               <FontAwesomeIcon :icon="arrowASC" />
             </span>
-            <span v-else-if="activeID === header.id && sorting === 'DESC'">
+            <span v-else-if="activeID === header.id && sortingOrder === 'DESC'">
               <FontAwesomeIcon :icon="arrowDESC" />
             </span>
           </th>
@@ -135,7 +136,7 @@ const sortingEventHandler = (id) => {
       </thead>
       <tbody class="table-group-divider fw-light">
         <tr v-for="row in sortedResults" :key="row.id">
-          <td v-for="col in cols" :key="col.id" :class="{ 'fw-normal': activeID === col.id }">
+          <td v-for="col in cols" :key="col.id">
             {{ row[col.key] }}
           </td>
         </tr>
