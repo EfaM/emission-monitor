@@ -52,44 +52,45 @@ const sortedResults = computed(() => {
   const newArray = searchResults.value.slice()
 
   function compare(a, b) {
-    let sortingResult = 0
+    let compareResult = 0
 
     switch (activeID.value) {
       case 0:
-        sortingResult = a.id - b.id
+        compareResult = a.id - b.id
         break
       case 1:
-        sortingResult = a.company.localeCompare(b.company)
+        compareResult = a.company.localeCompare(b.company)
         break
       case 2:
-        sortingResult = a.country.localeCompare(b.country)
+        compareResult = a.country.localeCompare(b.country)
         break
       case 3:
-        sortingResult = a.scope1 - b.scope1
+        compareResult = a.scope1 - b.scope1
         break
       case 4:
-        sortingResult = a.scope2 - b.scope2
+        compareResult = a.scope2 - b.scope2
         break
       case 5:
-        sortingResult = a.scope3 - b.scope3
+        compareResult = a.scope3 - b.scope3
         break
       case 6:
-        sortingResult = a.total - b.total
+        compareResult = a.total - b.total
         break
       case 7:
-        sortingResult = a.year - b.year
+        compareResult = a.year - b.year
         break
       default:
-        sortingResult = 0
+        compareResult = 0
     }
 
     if (sortingOrder.value === 'ASC') {
-      return sortingResult
+      return compareResult
     } else {
-      return -sortingResult
+      return -compareResult
     }
   }
-  newArray.sort(compare)
+
+  newArray.sort(compare) // Hier werden die compare- und die sorting-Methoden aufgerufen
   return newArray
 })
 
