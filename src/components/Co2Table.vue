@@ -90,7 +90,7 @@ const sortedResults = computed(() => {
     }
   }
 
-  newArray.sort(compare) // Hier werden die compare- und die sorting-Methoden aufgerufen
+  newArray.sort(compare)
   return newArray
 })
 
