@@ -1,44 +1,25 @@
-# emission-monitor
+# Emission Monitor
 
-This template should help get you started developing with Vue 3 in Vite.
+Im Rahmen einer Fallstudie wurde eine mehrsprachige Webanwendung zur Darstellung von CO₂-Emissionsdaten entwickelt.
 
-## Recommended IDE Setup
+Ziel ist es, Emissionsdaten transparent aufzubereiten und damit eine Grundlage für die Bewertung von Klimaverantwortung von Unternehmen und Politik zu schaffen. 
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Funktionen
 
-## Recommended Browser Setup
+- Mehrsprachigkeit (Deutsch, Englisch, Arabisch)
+- Anpassung der Leserichtung (LTR / RTL)
+- Filter- und sortierbare Emissionstabelle
+- Responsives Layout
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Technologien
 
-## Customize configuration
+- Vue.js  
+- Vue Router  
+- vue-i18n  
+- Bootstrap  
+- JavaScript  
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Kontext
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Das Projekt entstand im Rahmen des Kurses „Programmierung von Webanwendungsoberflächen“ 
+im Studiengang Medieninformatik und ist für Demozwecke gedacht.
